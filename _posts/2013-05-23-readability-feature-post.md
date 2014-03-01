@@ -9,7 +9,6 @@ image:
   feature: so-simple-sample-image-3.jpg
   credit: Michael Rose
   creditlink: http://mademistakes.com
-comments: true
 share: true
 ---
 

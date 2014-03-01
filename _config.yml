@@ -1,5 +1,5 @@
 title:            Coding and photography love
-description:      This is the personal website of Lyubomir Ganev - professional software developer and passionate photographer
+description:      Personal website of Lyubomir Ganev
 logo:             site-logo.png
 disqus_shortname: 
 search:           true
@@ -9,15 +9,15 @@ url:              http://localhost:4000
 # Owner/author information
 owner:
   name:           Lyubomir Ganev
-  avatar:         bio-photo.jpg
+  avatar:         profile-pic.jpg
   email:          luboganev@gmail.com
   # Social networking links used in footer. Update and remove as you like.
-  twitter:          https://twitter.com/lgancho    
-  facebook:         https://www.facebook.com/lganev
-  github:           https://github.com/luboganev
+  twitter:          lgancho    
+  facebook:         lganev
+  github:           luboganev
   stackexchange:  
-  linkedin:         http://de.linkedin.com/in/luboganev
-  instagram:        http://instagram.com/luboganev
+  linkedin:         luboganev
+  instagram:        luboganev
   flickr:           
   tumblr:         
   # For Google Authorship https://plus.google.com/authorship
@@ -36,11 +36,11 @@ links:
     url: /about/
   - title: Articles
     url: /articles/
-  - title: Theme Setup
-    url: /theme-setup/
+  - title: Playground
+    url: /playground/
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-timezone:    America/New_York
+timezone:    Europe/Berlin
 future:      true
 pygments:    true
 markdown:    kramdown
