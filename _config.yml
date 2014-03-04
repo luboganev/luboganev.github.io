@@ -4,7 +4,8 @@ logo:             site-logo.png
 disqus_shortname: 
 search:           true
 # Change url to your domain. Leave localhost server or blank when working locally.
-url:              http://luboganev.github.io
+#url:              http://luboganev.github.io
+url:              
 
 # Owner/author information
 owner:
@@ -15,11 +16,11 @@ owner:
   twitter:          lgancho    
   facebook:         lganev
   github:           luboganev
-  stackexchange:  
   linkedin:         luboganev
   instagram:        luboganev
-  flickr:           
-  tumblr:         
+  xing:             Lyubomir_Ganev2
+  500px:            luboganev
+  society6:         luboganev
   # For Google Authorship https://plus.google.com/authorship
   google_plus:      https://plus.google.com/+LyubomirGanev
 
@@ -34,8 +35,10 @@ bing_verify:
 links:
   - title: About
     url: /about/
-  - title: Articles
-    url: /articles/
+  - title: Blog
+    url: /blog/
+  - title: Projects
+    url: /projects/
   - title: Playground
     url: /playground/
 
