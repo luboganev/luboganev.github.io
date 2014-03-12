@@ -13,6 +13,8 @@ A playground for me here. Just do no click on anything unless you know what you 
 
 <div markdown="0"><a href="chiponlineapp://containerIdBeitrag/67984814" class="btn">Valid Id, Kein Fallback Parameter</a></div>
 
+<div markdown="0"><a href="chiponlineapp://containerIdBeitrag/67984814" class="btn">Korrekt Schema, Kein Id oder Fallback Parameter</a></div>
+
 <div markdown="0"><a href="chiponlineapp://containerIdBeitrag/679848140" class="btn">Invalid Id, Kein Fallback Parameter</a></div>
 
 <div markdown="0"><a href="chiponlineapp://containerIdBeitrag/67984814/?fallback=http%3A%2F%2Fwww.chip.de%2Fnews%2FSamsung-Galaxy-S5-Alle-Fakten-und-Hands-on_67984814.html" class="btn">Valid Id, URL encoded fallback parameter</a></div>
