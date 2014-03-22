@@ -2,7 +2,7 @@
 layout: post
 title: "A Post with Images"
 description: "Examples and code for displaying images in posts."
-category: articles
+category: drafts
 tags: [sample post, images, test]
 share: true
 ---

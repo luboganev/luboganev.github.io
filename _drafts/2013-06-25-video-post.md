@@ -2,7 +2,7 @@
 layout: post
 title: "A Post with a Video"
 description: "Custom written post descriptions are the way to go... if you're not lazy."
-category: articles
+category: drafts
 tags: [sample post, video]
 share: true
 ---
