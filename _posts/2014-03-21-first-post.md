@@ -3,7 +3,7 @@ layout: post
 title: First Post ever
 description: "This is the very first post in my blog, a starting point of what I hope to be an interesting personal blog."
 modified: 2014-03-21
-category: drafts
+category: blog
 tags: [first post, misc]
 share: true
 ---
