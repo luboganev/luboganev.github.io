@@ -2,7 +2,7 @@
 layout: post
 title: Activity Intents builder
 description: "This post proposes a clean pattern for building custom Intents needed to start explicitly an activity"
-modified: 2014-05-10
+modified: 2014-05-11
 category: blog
 tags: [android, tip, pattern, software development, builder, activity, intent]
 share: true
@@ -134,3 +134,50 @@ startActivity(i);
 {% endhighlight %}
 
 To sum up, this pattern could be also applied to the case of Fragments, when we need to instantiate a Fragment with a complex combination of arguments. It just needs some small tweaks so that the _build()_ method does not build an instance of an Intent, but instead builds an instance of the needed Fragment and sets its arguments.
+
+### Update (11.05.2014)
+
+After reviewing my code, I have come to the conclusion that it is just too general and complex. It implements the pattern in a way, which does not take any advantage of the Bundle class properties until the very last moment when the Intent is being built. The following example illustrates an optimized version of the builder, which has just one member variable and does not need to do any fancy bitmask operations.
+
+{% highlight java %}
+private static String INTENT_EXTRA_TITLE = "title";
+private static String INTENT_EXTRA_PAGE_NUMBER = "page_number";
+
+public static class AwsumIntentBuilder {
+    private Bundle mExtras;
+
+    private AwsumIntentBuilder() {
+        mExtras = new Bundle();
+    }
+
+    public static AwsumIntentBuilder getBuilder() {
+        AwsumIntentBuilder builder = new AwsumIntentBuilder();
+        return builder;
+    }
+
+    public AwsumIntentBuilder withTitle(String title) {
+        mExtras.putString(INTENT_EXTRA_TITLE, title);
+        return this;
+    }
+
+    public AwsumIntentBuilder withPageNumber(int pageNumber) {
+        mExtras.putInt(INTENT_EXTRA_PAGE_NUMBER, pageNumber);
+        return this;
+    }
+
+    public Intent build(Context ctx) {
+        Intent i = new Intent(ctx, AwsumActivity.class);
+        i.putExtras(mExtras);
+        return i;
+    }
+}
+    
+.....
+
+// Sample usage when we need to start the AwsumActivity from another Activity
+Intent i = AwsumActivity.AwsumIntentBuilder.getBuilder()
+                    .withTitle("Awsum title")
+                    .withPageNumber(10)
+                    .build(this)
+startActivity(i);
+{% endhighlight %}
