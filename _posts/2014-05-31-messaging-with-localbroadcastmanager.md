@@ -7,3 +7,18 @@ category: blog
 tags: [android, tip, software development, intent, broadcast, localbroadcastmanager]
 share: true
 ---
+
+- introduction and overview ot the post contents
+
+### Intent Broadcasts in Android
+
+- a few words on Intents and Broadcasts with links to android and some tutorials
+- system-wide intent examples
+
+### The LocalBroadcastManager
+
+- introduction to local broadcasts with links to docu
+- look into the api of the manager
+
+### Building a central wrapper
+
