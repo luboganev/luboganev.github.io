@@ -7,7 +7,7 @@ category: blog
 tags: [cooking, potatoes, ham, eggs, cheese, cream, recipe]
 share: true
 image:
-  feature: recipe_1/recipe_1_feature.jpg
+  feature: recipe_1_feature.jpg
 ---
 
 I'm trying lately to bring some variety in my everyday life by getting out of my comfort zone. This photo post is about cooking and particularly a recipe which I found in a magazine. I don't normally cook anything which has more than 3-4 steps of preparation, so this one was a serious challenge. It turned out to be very delicious at the end. And of course it took me a lot of time, due to lack of experience in the kitchen lol.
@@ -31,8 +31,8 @@ The whole preparation can be divided into 3 major tasks - preparing the potatoes
 Wash the potatoes thoroughly and put them in a cooking pot. Fill it with water so that it covers the potatoes. Please notice that you **do not peel** them! If you peel them, they will suck too much water and you will have serious trouble cutting them afterwards. Now you have to boil the water with the potatoes and when it starts boiling reduce the heating at half strength. 
 
 <figure class="half">
-	<a href="{{ site.url }}/images/recipe_1/recipe_1_1.jpg"><img src="{{ site.url }}/images/recipe_1/recipe_1_1.jpg"></a>
-    <a href="{{ site.url }}/images/recipe_1/recipe_1_2.jpg"><img src="{{ site.url }}/images/recipe_1/recipe_1_2.jpg"></a>
+	<a href="{{ site.url }}/images/recipe_1_1.jpg"><img src="{{ site.url }}/images/recipe_1_1.jpg"></a>
+    <a href="{{ site.url }}/images/recipe_1_2.jpg"><img src="{{ site.url }}/images/recipe_1_2.jpg"></a>
 </figure>
 
 Wait for about 20 minutes and then get the potatoes out of the pot and leave them to cool down for a while. After they are cool enough so that you could touch them with bare hands, you need to peel them. This should be easy and I suggest using only your hands and no tools for this. When you're done peeling, cut them into slices and put them in a plate.
