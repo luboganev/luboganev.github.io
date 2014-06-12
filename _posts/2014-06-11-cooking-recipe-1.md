@@ -15,20 +15,20 @@ I'm trying lately to bring some variety in my everyday life by getting out of my
 Since I did not stick exactly to the original recipe, I will give you the slightly updated version which I have actually did. Is is just a little bit simpler and includes ingredients which you can find easily.
 
 - 4-5 small potatoes
-- 300g cream, try to find one which is not like liquid but thicker
-- 200g grated cheese, you can also grate it yourself if you want
+- 300g sour cream or creme fraiche
+- 200g grated cheese
 - 100g ham
 - 1 egg, if you love eggs, you can fit up to 3, but I prefer using just one
-- 20-30g herb butter, normal one also works fine
+- 20-30g herb butter, plain butter also works fine
 - a little olive oil
 - salt, pepper
-- a little bit fresh or frozen chives
+- a little bit of fresh or frozen chives
 
 The whole preparation can be divided into 3 major tasks - preparing the potatoes, preparing the filling and the cooking plate and baking in the oven. I will shortly describe each of them in the following paragraphs.
 
 ### Preparing the potatoes
 
-Wash the potatoes thoroughly and put them in a cooking pot. Fill it with water so that it covers the potatoes. Please notice that you **do not peel** them! If you peel them, they will suck too much water and you will have serious trouble cutting them afterwards. Now you have to boil the water with the potatoes and when it starts boiling reduce the heating at half strength. 
+Wash the potatoes thoroughly and put them in a cooking pot. Fill it with water so that it covers the potatoes. Please notice that you **do not peel** them! If you peel them, they will take on too much water and you will have serious trouble cutting them afterwards. Now you have to boil the water with the potatoes and when it starts boiling reduce the heating to half strength. 
 
 <figure class="half">
 	<a href="{{ site.url }}/images/2014-06-11-cooking-recipe-1/img_1.jpg"><img src="{{ site.url }}/images/2014-06-11-cooking-recipe-1/img_1.jpg"></a>
