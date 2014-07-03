@@ -4,7 +4,7 @@ title: Permissions, features and Google Play
 description: "This post discusses a programming error which can influence the way Google Play filters the supported devices for your app."
 modified: 2014-06-22
 category: blog
-tags: [android, googleplay, tip, permissions, features]
+tags: [android, google play, tip, permissions, features]
 share: true
 ---
 
