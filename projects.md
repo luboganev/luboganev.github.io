@@ -6,6 +6,20 @@ description: "Some of the things I do."
 modified: 2014-03-04
 ---
 
+#_Professional_
+
+### CHIP Online App
+<a href="https://play.google.com/store/apps/details?id=de.chip.ultimate"><img src="{{ site.url }}/images/projects_chiponline.png"></a>
+{: .pull-right}
+CHIP Online is the number one website for computers, phones and home entertainment in Germany. The Chip Online App is available for Android and iOS as a native mobile app. Over a period of 7 months I have worked as part of an in-house team on further development of both native apps. Most of my work was focused primarily on the Android app. For more information visit the [__CHIP Apps__](http://apps.chip.de/) website or check out the Android app at [__Google Play__](https://play.google.com/store/apps/details?id=de.chip.ultimate)
+
+### Spontacts
+<a href="https://play.google.com/store/apps/details?id=com.conceptworks.spontacts"><img src="{{ site.url }}/images/projects_spontacts.png"></a>
+{: .pull-right}
+Spontacts is a social community which allows members to find, participate and create numerous activities at a certain location and particular time. Through participating in activities with other community members during their free time, Spontacts members can find and contact new interesting people, who share common interests and look for interesting activities during their free time. Over a period of two months I have worked together with the in-house team on a couple of new features integrated in the native Android app. For more information visit the [__Spontacts__](https://www.spontacts.com/) website or check out the Android app at [__Google Play__](https://play.google.com/store/apps/details?id=com.conceptworks.spontacts)
+
+#_Private_
+
 ### AppDetox
 <a href="https://play.google.com/store/apps/details?id=de.dfki.appdetox"><img src="{{ site.url }}/images/projects_appdetox.png"></a>
 {: .pull-right}
