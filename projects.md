@@ -23,7 +23,7 @@ Spontacts is a social community which allows members to find, participate and cr
 ### AppDetox
 <a href="https://play.google.com/store/apps/details?id=de.dfki.appdetox"><img src="{{ site.url }}/images/projects_appdetox.png"></a>
 {: .pull-right}
-AppDetox is a fun research project representing an Android application. The purpose of the app is to provide heavy Android users with a tool that helps them perform self-control and tame their mobile apps usage on daily basis. Get your digital detox dose not and download the app from [__Google Play__](https://play.google.com/store/apps/details?id=de.dfki.appdetox)
+AppDetox is a fun research project representing an Android application. The purpose of the app is to provide heavy Android users with a tool that helps them perform self-control and tame their mobile apps usage on daily basis. Get your digital detox dose now and download the app from [__Google Play__](https://play.google.com/store/apps/details?id=de.dfki.appdetox)
 
 ### Dejalist
 <a href="https://play.google.com/store/apps/details?id=com.luboganev.dejalist"><img src="{{ site.url }}/images/projects_dejalist.png"></a>
