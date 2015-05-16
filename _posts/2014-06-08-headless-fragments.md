@@ -126,42 +126,52 @@ public static class HeadlessCounterFragment extends Fragment {
 
 The following snippet contains the rest of the code of the Activity where the HeadlessConterFragment is hosted.
 {% highlight java %}
+private HeadlessCounterFragment mHeadlessCounterFragment;
+
 @Override
 protected void onCreate(Bundle savedInstanceState) {
     super.onCreate(savedInstanceState);
-    setContentView(R.layout.activity_awsum);
-    
-    HeadlessCounterFragment counterState = 
-        (HeadlessCounterFragment)getFragmentManager()
+    setContentView(R.layout.activity_headlessfragmentdemo);
+
+    mHeadlessCounterFragment = (HeadlessCounterFragment)getFragmentManager()
             .findFragmentByTag("counter_fragment");
-    if(counterState == null) {
-        counterState = new HeadlessCounterFragment();
-        getFragmentManager().beginTransaction()
-            .add(counterState, "counter_fragment").commit();
+    if(mHeadlessCounterFragment == null) {
+        mHeadlessCounterFragment = new HeadlessCounterFragment();
+        getFragmentManager().beginTransaction().add(mHeadlessCounterFragment, "counter_fragment").commit();
     }
 
-    counterState.setCounterTextView((TextView)findViewById(R.id.textView));
+    if(savedInstanceState == null) {
+        // Setting the TextView for the count only initially
+        mHeadlessCounterFragment.setCounterTextView((TextView) findViewById(R.id.textView));
+    }
 
-    findViewById(R.id.btn_startCounting)
-        .setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                HeadlessCounterFragment counterState = 
-                    (HeadlessCounterFragment)getFragmentManager()
-                        .findFragmentByTag("counter_fragment");
-                if(counterState != null) counterState.startCounting();
-            }
+    findViewById(R.id.btn_startCounting).setOnClickListener(new View.OnClickListener() {
+        @Override
+        public void onClick(View view) {
+            HeadlessCounterFragment counterState = (HeadlessCounterFragment)getFragmentManager()
+                    .findFragmentByTag("counter_fragment");
+            if(counterState != null) counterState.startCounting();
+        }
     });
 
     findViewById(R.id.btn_stopCounting).setOnClickListener(new View.OnClickListener() {
         @Override
         public void onClick(View view) {
-            HeadlessCounterFragment counterState = 
-                (HeadlessCounterFragment)getFragmentManager()
+            HeadlessCounterFragment counterState = (HeadlessCounterFragment)getFragmentManager()
                     .findFragmentByTag("counter_fragment");
             if(counterState != null) counterState.stopCounting();
         }
     });
+}
+
+@Override
+protected void onDestroy() {
+    super.onDestroy();
+    // Making sure we clean references on destroy
+    if(mHeadlessCounterFragment != null) {
+        mHeadlessCounterFragment.setCounterTextView(null);
+        mHeadlessCounterFragment = null;
+    }
 }
 {% endhighlight %}
 
