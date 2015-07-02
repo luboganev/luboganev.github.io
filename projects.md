@@ -19,9 +19,16 @@ CHIP Online is the number one website for computers, phones and home entertainme
 Spontacts is a social community which allows members to find, participate and create numerous activities at a certain location and particular time. Through participating in activities with other community members during their free time, Spontacts members can find and contact new interesting people, who share common interests and look for interesting activities during their free time. Over a period of two months I have worked together with the in-house team on a couple of new features integrated in the native Android app. For more information visit the [__Spontacts__](https://www.spontacts.com/) website or check out the Android app at [__Google Play__](https://play.google.com/store/apps/details?id=com.conceptworks.spontacts)
 
 ### Jochen Schweizer
-<a href="https://itunes.apple.com/de/app/jochen-schweizer-deine-freizeit/id944153254?l=en&mt=8"><img src="{{ site.url }}/images/projects_jochenschweizer.png"></a>
+
+Jochen Schweizer GmbH is a market leader in Germany for adventures and experience gifts. The company offers over 1,700 different activities for all tastes and ages: adrenaline-packed adventures full of action, fascinating outdoor activities for the whole family and feel-good experiences to relax and enjoy. The experience offers can be booked either online or in more than 40 Jochen Schweizer shops in Germany and Austria in the form of vouchers or as an experience box. 
+
+<a href="https://play.google.com/store/apps/details?id=de.jochen_schweizer.jsnow"><img src="{{ site.url }}/images/projects_jochenschweizer_android.png"></a>
 {: .pull-right}
-Jochen Schweizer GmbH is a market leader in Germany for adventures and experience gifts. The company offers over 1,700 different activities for all tastes and ages: adrenaline-packed adventures full of action, fascinating outdoor activities for the whole family and feel-good experiences to relax and enjoy. The experience offers can be booked either online or in more than 40 Jochen Schweizer shops in Germany and Austria in the form of vouchers or as an experience box. My main responsibilities in this project include building, testing and mainatining the native iOS application. I work as part of an in-house agile cross-functional software development team. For more information visit the [__Jochen Schweizer App__](http://www.jochen-schweizer.de/landingpage/erlebnis-app,default,pg.html/) website or check out the iOS app at the [__App Store__](https://itunes.apple.com/de/app/jochen-schweizer-deine-freizeit/id944153254?l=en&mt=8)
+
+<a href="https://itunes.apple.com/de/app/jochen-schweizer-deine-freizeit/id944153254?l=en&mt=8"><img src="{{ site.url }}/images/projects_jochenschweizer_ios.png"></a>
+{: .pull-right}
+
+With the Jochen Schweizer app users can easily find and book tickets for experiences taking place on a specific date and time and at particular location. My main responsibilities in this project include building, testing and mainatining the native Android and iOS applications. I work as part of an in-house agile cross-functional software development team. For more information on this project visit the [__Jochen Schweizer App__](http://www.jochen-schweizer.de/landingpage/erlebnis-app,default,pg.html/) website or check out the iOS app at the [__App Store__](https://itunes.apple.com/de/app/jochen-schweizer-deine-freizeit/id944153254?l=en&mt=8) or the Android app at [__Google Play__](https://play.google.com/store/apps/details?id=de.jochen_schweizer.jsnow)
 
 #_Private_
 
