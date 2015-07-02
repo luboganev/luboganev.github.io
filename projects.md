@@ -20,7 +20,7 @@ Spontacts is a social community which allows members to find, participate and cr
 
 ### Jochen Schweizer
 
-Jochen Schweizer GmbH is a market leader in Germany for adventures and experience gifts. The company offers over 1,700 different activities for all tastes and ages: adrenaline-packed adventures full of action, fascinating outdoor activities for the whole family and feel-good experiences to relax and enjoy. The experience offers can be booked either online or in more than 40 Jochen Schweizer shops in Germany and Austria in the form of vouchers or as an experience box. 
+Jochen Schweizer GmbH is a market leader in Germany for adventures and experiences. The company offers over 1,700 different activities for all tastes and ages: adrenaline-packed adventures full of action, fascinating outdoor activities for the whole family and feel-good experiences to relax and enjoy. The experience offers can be booked either online or in more than 40 Jochen Schweizer shops in Germany and Austria in the form of vouchers or as an experience box. 
 
 <a href="https://play.google.com/store/apps/details?id=de.jochen_schweizer.jsnow"><img src="{{ site.url }}/images/projects_jochenschweizer_android.png"></a>
 {: .pull-right}
@@ -28,7 +28,7 @@ Jochen Schweizer GmbH is a market leader in Germany for adventures and experienc
 <a href="https://itunes.apple.com/de/app/jochen-schweizer-deine-freizeit/id944153254?l=en&mt=8"><img src="{{ site.url }}/images/projects_jochenschweizer_ios.png"></a>
 {: .pull-right}
 
-With the Jochen Schweizer app users can easily find and book tickets for experiences taking place on a specific date and time and at particular location. My main responsibilities in this project include building, testing and mainatining the native Android and iOS applications. I work as part of an in-house agile cross-functional software development team. For more information on this project visit the [__Jochen Schweizer App__](http://www.jochen-schweizer.de/landingpage/erlebnis-app,default,pg.html/) website or check out the iOS app at the [__App Store__](https://itunes.apple.com/de/app/jochen-schweizer-deine-freizeit/id944153254?l=en&mt=8) or the Android app at [__Google Play__](https://play.google.com/store/apps/details?id=de.jochen_schweizer.jsnow)
+With the Jochen Schweizer app users can easily find and book experiences taking place on a specific date and time and at particular location. My main responsibilities in this project include building, testing and mainatining the native Android and iOS applications. I work as part of an in-house agile cross-functional software development team. For more information on this project visit the [__Jochen Schweizer App__](http://www.jochen-schweizer.de/landingpage/erlebnis-app,default,pg.html/) website or check out the iOS app at the [__App Store__](https://itunes.apple.com/de/app/jochen-schweizer-deine-freizeit/id944153254?l=en&mt=8) or the Android app at [__Google Play__](https://play.google.com/store/apps/details?id=de.jochen_schweizer.jsnow)
 
 #_Private_
 
