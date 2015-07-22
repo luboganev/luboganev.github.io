@@ -17,6 +17,7 @@ I would like to start by talking why I think that apps architecture is an import
 It is sometimes pretty easy to start quickly hacking together a working application, but this approach cannot scale. It does not work well, when you first build a minimum viable product and then incrementally add a lot of extra features to it. It does not work well with product development in the agile software development world. And please do not tell me that planning a basic architecture is not an agile approach, because if you completely ignore this step, pretty soon you won't be able to be agile at all.
 
 ### Let's face it - building apps is complex
+![Anatomy of an Android]({{ site.url }}/images/2015-07-21-clean-architecture-pt1/android_anatomy.jpg)
 Let's look at some common Android framework stuff that one has to implement, work around or just manage when building applications. It probably does not have anything to do in particular with the main business logic of the applications, but one has to do it in order to have a working Android app at all.
 
 * backwards compatibility
