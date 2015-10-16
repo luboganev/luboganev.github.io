@@ -32,6 +32,12 @@ With the Jochen Schweizer app users can easily find and book experiences taking 
 
 #_Private_
 
+### Anidro
+<a href="https://play.google.com/store/apps/details?id=app.anidro"><img src="{{ site.url }}/images/projects_anidro.png"></a>
+{: .pull-right}
+Anidro is a fun app which brings motion to static drawings. Users can create simple drawings on their smartphone or tablet and then share an animated version of these drawings as an animated GIF or video. For more information visit the [__Google Play__](https://play.google.com/store/apps/details?id=app.anidro) page or the [__GitHub__](http://luboganev.github.io/anidro/) project page.
+
+
 ### AppDetox
 <a href="https://play.google.com/store/apps/details?id=de.dfki.appdetox"><img src="{{ site.url }}/images/projects_appdetox.png"></a>
 {: .pull-right}
