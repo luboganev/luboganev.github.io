@@ -13,6 +13,8 @@ Although one could write a detailed description of the concepts and ideas behind
 ### Where is the code?
 The demo app is called Car brands and is an open-source project hosted at GitHub. You can find the repository here: [Repository Link](https://github.com/luboganev/Carbrands)
 
+(Update 11.05.2016) If you are cloning the repository, please be advised that this particular post refers to an older revision of the code and not the HEAD from the master branch. It is tagged with the tag v1.1. You can find it here: [Repository Link TAG v1.1](https://github.com/luboganev/Carbrands/tree/v1.1)
+
 If you do not feel like building the app yourself or cloning the repository, you can alternatively download the source and a ready built debug apk file from the release section of the project at GitHub. Please find it here: [Release Link](https://github.com/luboganev/Carbrands/releases/tag/v1.1)
 
 ### Overview of the app architecture with Dagger
