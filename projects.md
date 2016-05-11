@@ -6,7 +6,7 @@ description: "Some of the things I do."
 modified: 2014-03-04
 ---
 
-#_Professional_
+# _Professional_
 
 ### CHIP Online App
 <a href="https://play.google.com/store/apps/details?id=de.chip.ultimate"><img src="{{ site.url }}/images/projects_chiponline.png"></a>
@@ -30,7 +30,7 @@ Jochen Schweizer GmbH is a market leader in Germany for adventures and experienc
 
 With the Jochen Schweizer app users can easily find and book experiences taking place on a specific date and time and at particular location. My main responsibilities in this project include building, testing and mainatining the native Android and iOS applications. I work as part of an in-house agile cross-functional software development team. For more information on this project visit the [__Jochen Schweizer App__](http://www.jochen-schweizer.de/landingpage/erlebnis-app,default,pg.html/) website or check out the iOS app at the [__App Store__](https://itunes.apple.com/de/app/jochen-schweizer-deine-freizeit/id944153254?l=en&mt=8) or the Android app at [__Google Play__](https://play.google.com/store/apps/details?id=de.jochen_schweizer.jsnow)
 
-#_Private_
+# _Private_
 
 ### Anidro
 <a href="https://play.google.com/store/apps/details?id=app.anidro"><img src="{{ site.url }}/images/projects_anidro.png"></a>
@@ -57,3 +57,8 @@ Good intentions is an Open-source Android application which helps Android develo
 <a href="https://play.google.com/store/apps/details?id=com.luboganev.testground"><img src="{{ site.url }}/images/projects_testground.png"></a>
 {: .pull-right}
 Testground is the companion app of my [__Blog__]({{ site.url }}/blog). It contains demos and sample code described in posts as well as direct links to them. It is open-source so you can play around with the samples and demos and change them to match your needs. You can download app from [__Google Play__](https://play.google.com/store/apps/details?id=com.luboganev.testground) or build it yourself using the source code hosted at [__GitHub__](https://github.com/luboganev/testground).
+
+### Carbrands
+<a href="https://github.com/luboganev/Carbrands"><img src="{{ site.url }}/images/projects_carbrands.png"></a>
+{: .pull-right}
+Carbrands is a list/detail sample application of the clean architecture posts series, which you can find in my [__Blog__]({{ site.url }}/blog). It is constantly being improved and the concepts implemented in it evolve together with the blog posts. It is open-source so you can play around with it or even use it as a skeleton app when building your own projects if you wish. You can download a compiled APK from the [__GitHub Releases section__](https://github.com/luboganev/Carbrands/releases) or build it yourself using the source code hosted at [__GitHub__](https://github.com/luboganev/Carbrands).
