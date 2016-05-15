@@ -2,7 +2,7 @@
 layout: post
 title: Android clean architecture part 4
 description: "This post presents a demo application built with the VIPER architecture in mind. It defines a common set of naming rules and patterns to be followed, when developing an Android application with the clean architecture in mind."
-modified: 2015-07-29
+modified: 2016-05-11
 category: post
 tags: [android, MVP, dependecy injection, VIPER, Dagger, tip, pattern, architecture, software development]
 share: true
