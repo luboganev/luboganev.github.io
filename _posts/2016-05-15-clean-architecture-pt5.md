@@ -21,20 +21,20 @@ All the problems with the proposed implementation actually originate from a sing
 The following paragraphs provide some more detail for each of the problems above.
 
 #### Too many object allocations
-Well, that's probably a no brainer. Recreating _Presenter_ and _Interactor_ instances and all their dependencies on each configuration change is not cheap. This takes some time and might have a negative effect on the performance of the app. In addition, the extra memory allocations means more work for the garbage collector, which also leads to sloppy UI performance.
+Well, that's probably obvious. Recreating _Presenter_ and _Interactor_ instances and all their dependencies on each configuration change is not cheap. Allocating them takes some time and might have a negative effect on the performance of the app. In addition, the extra memory allocations mean more work for the garbage collector, which also leads to sloppy UI performance.
 
 #### Presenters, Interactors and Bundles. Oh my!
-It might not look like a bad idea at first, but it proved to be really bad in the long term. You see, having to save and restore the state of _Presenter_ and _Interactor_ implementations in _Bundle_ increases their complexity with boilerplate code. The initial idea of the clean architecture is to be, well, clean. So pushing bundles and lifecycle methods as deep as an _Interactor_ is contributing to neither cleaner nor simpler code. 
+It might not look like a bad idea at first, but it proved to be really painful in the long term. You see, having to save and restore the state of _Presenter_ and _Interactor_ implementations in _Bundle_ increases their complexity with boilerplate code. The initial idea of the clean architecture is to be, well, clean. So pushing bundles and lifecycle methods as deep as an _Interactor_ is contributing to neither cleaner nor simpler code. 
 
-In addition, it can also be error-prone. Since _Bundle_ works with key-value pairs, what happens if two components want to use the same key for different things to store? In an example scenario this will lead to an _Interactor_ overwriting value relate to the state of a Presenter or some value related to the UI, thus producing errors or even crashes due to wrong types. In order to prevent this, one has to come up with some convention that guarantees unique _Bundle_ keys. This further increases the complexity and introduces even more boilerplate code.
+In addition, it can also prove to be error-prone. Since _Bundle_ works with key-value pairs, what happens if two components want to use the same key for different things to store? For example this might lead to an _Interactor_ overwriting value related to the state of a Presenter or some value related to the UI, thus producing errors or even crashes due to wrong types. In order to prevent this, one has to come up with a convention that guarantees unique _Bundle_ keys. This further increases the complexity and introduces even more boilerplate code.
 
-#### Testing and framework classes and lifecycle
+#### Testing, framework classes and lifecycle
 Saving and restoring state of _Presenter_ and _Interactor_ through _Bundle_ and lifecycle callback methods makes testing and especially Unit testing very hard. Having references to framework classes instead of only pure Java inside these components means that you have to use libraries like _Roboelectric_ in order to be able to run Unit tests without an emulator. Don't get me wrong, Roboelectric is great, but in this case it solves a problem, which would not exist at all in a better architecture.
 
-But let's say the only framework class we have is _Bundle_, we can mock it easily with something like _Mockito_, right? The class itself yes, but which values should it return? Which are relevant to the tested component? It means that you have to go through the code of the whole component and check what keys and values it expects to get from the _Bundle_. In other words, such components' dependencies are not clearly visible from their public API, which makes writing good tests hard, because the test has to know too much.  
+But let's say the only framework class we have is _Bundle_. We can mock it easily with something like _Mockito_, right? The class itself yes, but which values should it return? Which are relevant to the tested component? It means that you have to go through the code of the whole component and check what keys and values it expects to get from the _Bundle_. In other words, such components' dependencies are not clearly visible from their public API. This makes writing good unit tests hard, because the test has to know too much.  
 
 #### Long-running atomic operations
-Let's say that an _Interactor_ needs to perform a network request, which does somethings important like performing a payment. If a configuration change happens while the request is running, we end up with a brand new _Interactor_ which only knows that a request was sent. But it has no idea if it has reached the server, if it has failed or succeeded. It will also never get back the result of this operation coming from the server. 
+Let's say that an _Interactor_ needs to perform a network request, which does something important like performing a payment. If a configuration change happens while the request is running, we end up with a brand new _Interactor_ which only knows that a request was sent. But it has no idea if it has reached the server, if it has failed or succeeded. It will also never get back the result of this operation coming from the server. 
 
 This problem was already discussed into the previous post, which suggests that such _Interactor_ should live in the Application object graph and not in any of the scoped object graphs. This, however, means that once allocated this Interactor will stay in memory as long as the process lives, which is not that efficient. In addition, scoped graph Interactors have to somehow communicate with this special Interactor, which introduces yet more complexity.
 
@@ -79,7 +79,7 @@ This implementation maps instances of the _ObjectGraph_ to unique auto-increment
 Please notice the _removeObjectGraph(id)_ method, which is used to remove object graphs related to an _Activity_ that is finished. In the previous implementation the scoped _ObjectGraph_ was garbage collected each time an _Activity_ was destroyed, but now we have to take care of this ourselves and call this remove method when an _Activity_ is finishing and will not come back.
 
 #### The new BaseDaggerActivity
-The second important component we need to take in account is the _BaseDaggerActivity_. It does not contain instance of its scoped ObjectGraph anymore, but calls the methods of the _ObjectGraphHolder_. The most important functionality can be found in the snipper below
+The second important component we need to look at is the _BaseDaggerActivity_. It does not contain instance of its scoped ObjectGraph anymore, but calls the methods of the _ObjectGraphHolder_. The most important functionality can be found in the snippet below
 
 {% highlight java %}
 
@@ -137,14 +137,14 @@ protected void onDestroyObjectGraph() {
 }
 {% endhighlight %}
 
-Each time the _OnCreate()_ method is invoked, we check if the _ObjectGraphHolder_ already contains an _ObjectGraph_ with the particular id related to this _Activity_. If it doesn't we, create a new scoped graph and put it in the _ObjectGraphHolder_, which gives us in return a new id for it. 
+Each time the _OnCreate()_ method is invoked, we check if the _ObjectGraphHolder_ already contains an _ObjectGraph_ with the particular id related to this _Activity_. If it doesn't, we create a new scoped graph and put it in the _ObjectGraphHolder_, which gives us in return a new id for it. 
 
-Since the id, which the _ObjectGraphHolder_ gives us when we put a new _ObjectGraph_ in it, is our only way of accessing it, we need to save it through configuration changes. When a configuration change occurs, we first try to restore it and after that we are be able to request the stored _ObjectGraph_ again in the _OnCreate()_ method.
+The id, which the _ObjectGraphHolder_ gives us when we put a new _ObjectGraph_ in it, is our only way of accessing it. Therefore, we need to save it through configuration changes. When a configuration change occurs, we first try to restore it and after that we are be able to request the stored _ObjectGraph_ again in the _OnCreate()_ method.
 
-The final piece of the _ObjectGraph_ handling is making sure to remove it from the _ObjectGraphHolder_ when its related _Activity_ finishes. This is performed in the _onDestroyObjectGraph()_ which is called from the _onDestroy()_ method only if the _Activity_ is finishing.
+The final piece of the _ObjectGraph_ handling is making sure to remove it from the _ObjectGraphHolder_ when its related _Activity_ finishes. This is performed in the _onDestroyObjectGraph()_ method which is called from the _onDestroy()_ method only if the _Activity_ is finishing.
 
 #### The new Navigator
-The main purpose of the _Navigator_ class is to provide an abstraction around the navigation methods of an _Activity_ such as _startActivity()_ as well as the building of _Intent_ objects. In order to be able to do that, it needs to have an instance to the currently visible _Activity_. This becomes problematic when the instance of the _Navigator_ is retained through configuration change, because the Activity it contains gets destroyed. Therefore its implementation has been updated a bit and now it gets the latest _Activity_ through a setter.
+The main purpose of the _Navigator_ class is to provide an abstraction around the navigation methods of an _Activity_ such as _startActivity()_ as well as the building of _Intent_ objects. In order to do that, it needs to have an reference to the currently visible _Activity_. This becomes problematic when the instance of the _Navigator_ is retained through configuration changes, because the Activity it contains gets destroyed. Therefore its implementation has been updated a bit and now it gets the latest _Activity_ through a setter.
 
 {% highlight java %}
 private Activity mActivity;
@@ -153,7 +153,7 @@ public void setActivity(Activity activity) {
 }
 {% endhighlight %}
 
-This setter is being invoked in the new _BaseDaggerActivity_, which makes sure it keeps the instance inside the Navigator always fresh. This way, we also prevent leaking a destroyed _Activity_, because the reference inside the _Navigator_ points always to the newest instance of the currently visible _Activity_. The following code snippet of _BaseDaggerActivity_ shows how this is performed.
+This setter is being called in the new _BaseDaggerActivity_, which makes sure it keeps the instance inside the Navigator always fresh. This way, we also prevent leaking a destroyed _Activity_, because the reference inside the _Navigator_ points always to the newest instance of the currently visible _Activity_. The following code snippet of _BaseDaggerActivity_ shows how this is performed.
 
 {% highlight java %}
 @Inject Navigator navigator;
@@ -185,7 +185,7 @@ protected void onResume() {
 #### The new Presenter and Interactor lifecycle
 Having the whole scoped object graph survive configuration changes means that we have basically no lifecycle at all. _Presenter_ and _Interactor_ instances simply get instantiated through their constructor and then are garbage collected when the scoped _ObjectGraph_ is removed from the _ObjectGraphHolder_.
 
-However, reference to the Views cannot be injected through the constructor of a _Presenter_ anymore. This is due to the fact that when a cofiguration change occurs, we have a new _View_ instance and we have to update the reference to it inside a _Presenter_ with this new instance. The following snippets show how this is performed in the _CarBrandsActivity_ and _CarBrandsPresenter_.
+However, references to the Views cannot be injected through the constructor of a _Presenter_ anymore. This is due to the fact that when a cofiguration change occurs, we have a new _View_ instance and we have to update its reference to it inside a _Presenter_. The following snippets show how this is performed in the _CarBrandsActivity_ and _CarBrandsPresenter_.
 
 {% highlight java %}
 public class CarBrandsPresenter implements CarBrandsPresenterInput, CarBrandsInteractorOutput {
