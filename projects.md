@@ -3,10 +3,27 @@ layout: page
 permalink: /projects/
 title: Projects
 description: "Some of the things I do."
-modified: 2014-03-04
+modified: 2019-06-07
 ---
 
 # _Professional_
+
+### ThinxNet
+ThinxNet is a fast-growing Startup, based in Munich, Germany, striving to make the Internet of Things happen. The main focus lies on the automotive sector, where the team uses cloud-based, state-of-the-art technology to pursue the vision of making our streets a safer and more efficient place. ThinxNet is crafting the future of mobility in new, exciting ways improving the driving experience through intelligent, connected solutions. 
+
+<a href="https://play.google.com/store/apps/details?id=com.thinxnet.native_tanktaler_android"><img src="{{ site.url }}/images/projects_ryd.png"></a>
+{: .pull-right}
+
+The project I mostly focus on is the Ryd app available for iOS and Android. For more information visit the official copmany website [__ThinxNet__](https://www.thinxnet.com/), the official copmany website of [__Ryd__](https://ryd.one/de-de/) or the official app listing at [__Google Play__](https://play.google.com/store/apps/details?id=com.thinxnet.native_tanktaler_android)
+
+### Luxoft Munich
+
+Luxoft (NYSE:LXFT) is a global consulting partner that offers end-to-end digital solutions to solve clients’ complex business challenges. My tasks were focused in working with partners from the automotive industry such as BMW. 
+
+<a href="https://play.google.com/store/apps/details?id=de.bmw.connected"><img src="{{ site.url }}/images/projects_bmw_connected.png"></a>
+{: .pull-right}
+
+One of the projects I have work on is the Android application part of BMW Connected services. For more information please visit the official listing of the app at [__Google Play__](https://play.google.com/store/apps/details?id=de.bmw.connected).
 
 ### Bragi
 
@@ -56,17 +73,17 @@ AppDetox is a fun research project representing an Android application. The purp
 ### Dejalist
 <a href="https://play.google.com/store/apps/details?id=com.luboganev.dejalist"><img src="{{ site.url }}/images/projects_dejalist.png"></a>
 {: .pull-right}
-Dejalist is an Open-source Android application highlighting some best practices and design guidelines on how Android native applications should be built. For more information visit the [__Google Play__](https://play.google.com/store/apps/details?id=com.luboganev.dejalist) page or the [__GitHub__](http://luboganev.github.io/dejalist/) project page.
+Dejalist is an Open-source Android application highlighting some best practices and design guidelines on how Android native applications should be built. For more information visit the [__GitHub__](https://github.com/luboganev/dejalist) project page.
 
 ### Good intentions
 <a href="https://play.google.com/store/apps/details?id=com.luboganev.goodintentions"><img src="{{ site.url }}/images/projects_goodintentions.png"></a>
 {: .pull-right}
-Good intentions is an Open-source Android application which helps Android developers test the behaviour of the framework or their own application related to specific Android development functionality called Intents. For more information visit the [__Google Play__](https://play.google.com/store/apps/details?id=com.luboganev.goodintentions) page or the [__GitHub__](http://luboganev.github.io/goodintentions/) project page.
+Good intentions is an Open-source Android application which helps Android developers test the behaviour of the framework or their own application related to specific Android development functionality called Intents. For more information visit the [__GitHub__](https://github.com/luboganev/goodintentions) project page.
 
 ### Testground
 <a href="https://play.google.com/store/apps/details?id=com.luboganev.testground"><img src="{{ site.url }}/images/projects_testground.png"></a>
 {: .pull-right}
-Testground is the companion app of my [__Blog__]({{ site.url }}/blog). It contains demos and sample code described in posts as well as direct links to them. It is open-source so you can play around with the samples and demos and change them to match your needs. You can download app from [__Google Play__](https://play.google.com/store/apps/details?id=com.luboganev.testground) or build it yourself using the source code hosted at [__GitHub__](https://github.com/luboganev/testground).
+Testground is the companion app of my [__Blog__]({{ site.url }}/blog). It contains demos and sample code described in posts as well as direct links to them. It is open-source so you can play around with the samples and demos and change them to match your needs. For more information visit the [__GitHub__](https://github.com/luboganev/testground) project page.
 
 ### Carbrands
 <a href="https://github.com/luboganev/Carbrands"><img src="{{ site.url }}/images/projects_carbrands.png"></a>
