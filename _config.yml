@@ -1,63 +1,103 @@
-title:            Personal website of Lyubomir Ganev
-description:
-logo:             site-logo.png
-disqus_shortname: 
-search:           true
-# Change url to your domain. Leave localhost server or blank when working locally.
-url:              https://luboganev.dev
-#url:
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
 
-# Owner/author information
-owner:
-  name:           Lyubomir Ganev
-  avatar:         profile-pic.jpg
-  email:          luboganev@gmail.com
-  # Social networking links used in footer. Update and remove as you like.
-  twitter:          lgancho    
-  facebook:         lganev
-  github:           luboganev
-  google_play:      6612114401295889152
-  linkedin:         luboganev
-  xing:             Lyubomir_Ganev2
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+theme: jekyll-theme-so-simple
+# remote_theme: mmistakes/so-simple-theme
+locale: en-US
+title: "Personal website of Lyubomir Ganev"
+description: "Personal website of Lyubomir Ganev"
+baseurl: # the subpath of your site, e.g. "/blog"
+url: "https://luboganev.dev"
+logo: "/images/site-logo.png"
+date_format: "%B %-d, %Y"
+read_time: true
+words_per_minute: 200
+mathjax: false
+google_fonts:
+  - name: "Source Sans Pro"
+    weights: "400,400i,700,700i"
+  - name: "Lora"
+    weights: "400,400i,700,700i"
+google_analytics: "UA-52718382-2"
+disqus:
+  shortname: # Disqus shortname, e.g. "my_disqus_shortname"
+twitter:
+  username: "lgancho"
 
-# Analytics and webmaster tools stuff goes here
-google_analytics: UA-52718382-2
-google_verify:      
-# https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
-bing_verify:         
+# Liquid
+liquid:
+  error_mode: strict
 
-# Links to include in top navigation
-# For external links add external: true
-links:
-  - title: About
-    url: /about/
-  - title: Blog
-    url: /blog/
-  - title: Projects
-    url: /projects/
+# Build settings
+permalink: /:categories/:title/
+markdown: kramdown
+feed:
+  path: atom.xml
 
-# http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-timezone:    Europe/Berlin
-future:      true
-highlighter: rouge
-markdown:    kramdown
+# Pagination - https://jekyllrb.com/docs/pagination/
+# paginate: 10
+# paginate_path: /page:num/
 
-# https://github.com/mojombo/jekyll/wiki/Permalinks
-permalink:   /:categories/:title/
+# Search
+search_full_content: true # can have performance implications for large sites
 
-kramdown:
-  auto_ids: true
-  footnote_nr: 1
-  entity_output: as_char
-  toc_levels: 1..6
-  use_coderay: false
+# Taxonomy pages
+# category_archive_path: "/categories/#"
+# tag_archive_path: "/tags/#"
 
-  coderay:
-    coderay_line_numbers: 
-    coderay_line_numbers_start: 1
-    coderay_tab_width: 4
-    coderay_bold_every: 10
-    coderay_css: class
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
 
-include: [".htaccess"]
-exclude: ["lib", "config.rb", "Gemfile", "Capfile", "Gemfile.lock", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules"]
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-paginate
+
+# Front Matter Defaults
+defaults:
+  # Posts defaults
+  - scope:
+      path: "_posts"
+      type: posts
+    values:
+      layout: post
+      share: true
+
+# Site Author
+author: Lyubomir Ganev
+  name: Lyubomir Ganev
+  picture: images/profile-pic.jpg
+  email: luboganev@gmail.com
+  twitter: lgancho
+  links:
+    - title:
+      url:
+      icon:
+
+# Footer Links
+footer_links:
+  - title: Feed
+    url: atom.xml
+    icon: fas fa-rss-square
