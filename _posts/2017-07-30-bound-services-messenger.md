@@ -11,7 +11,7 @@ share: true
 ### Android inter-process communication (IPC)
 TL;DR; if you want to get a very good understanding into how Android inter-process communication works, check out the following outstanding video about the Android Binder framework internals. It is long, but I really recommend it!
 
-* [AnDevCon IV: Android Binder IPC Framework](https://www.youtube.com/watch?v=hiq3mGfLOtE)
+{% include responsive-embed url="https://www.youtube.com/watch?v=hiq3mGfLOtE" ratio="16:9" %}
 
 > Inter Process Communication (IPC) has been a part of Android since 1.0, and yet most of us take it for granted. Intents, content providers, and system service managers hide the IPC infrastructure provided by Binder, but without it, the Android OS and our apps would simply fall apart. Binder/IPC is the glue that holds it all together. It enables Android's memory management, security sandboxing, efficient threading, and countless other features on the Android platform.
 
@@ -242,7 +242,4 @@ I have included a demo in the blog's companion app where you can test the _Messe
 * Fire-and-forget - Call, which sends a _String_ message to the service and expects no response
 * Request-Response - A call to the service sending two integers, which expects a response with the result of their addition. In addition, the integers are packed into a custom data class, in order to demonstrate the ability to send _Parcelable_ payload through the Messenger API.
 
-You can find the app and its source code under the following links:
-
-* [**Testground at Google Play**](https://play.google.com/store/apps/details?id=com.luboganev.testground)
-* [**Testground source code at GitHub**](https://github.com/luboganev/testground)
+You can find the source code on [**GitHub**](https://github.com/luboganev/testground)

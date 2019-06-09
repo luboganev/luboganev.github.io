@@ -28,10 +28,7 @@ The Android ImageView has a nested class called ScaleType, which contains scalin
 * **MATRIX** - if none of the other 7 works for you, you can always use this one and provide your own scaling by assigning the output of a Matrix class transformation (Rotate, Scale, Skew, etc.) using a .setImageMatrix() method call.
 
 ### Time to play - try out the different options in the companion app
-I have included a demo in the blog's companion app where you can test everything you would like. You can find the app and its source code under the following links:
-
-* [**Testground at Google Play**](https://play.google.com/store/apps/details?id=com.luboganev.testground)
-* [**Testground source code at GitHub**](https://github.com/luboganev/testground)
+I have included a demo in the blog's companion app where you can test everything you would like. You can find the source on [**GitHub**](https://github.com/luboganev/testground).
 
 The demo related to this post provides the following options:
 

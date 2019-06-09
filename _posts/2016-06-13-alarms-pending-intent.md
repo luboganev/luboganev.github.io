@@ -164,7 +164,4 @@ A very important thing to keep in mind is that alarms and _PendingIntents_ are n
 As you can see, Alarms are not 100% reliable and there are a lot of situations, where you need to take care and reschedule them. The only situation you cannot do anything about it, is when the user Force closes your application from the app settings screen. If this occurs, the Android framework will NOT invoke automatically any _Service_ or _BroadcastReceiver_ of your application unless the user explicitly starts your application again. This might look a little harsh for us developers, but makes perfect sense from a user point of view. Imagine some _Service_, which crashes immediately every time it gets started. If it is a sticky service, the framework will try to restart it over and over again. Constantly popping an application not responding dialog in front of the user will prevent normal device usage, which is really bad. So this fail-safe functionality is actually a good thing for the whole system and for other apps.
 
 ### Time to play - try out the different options in the companion app
-I have included a demo in the blog's companion app where you can test some _PendingIntents_ and alarm scheduling. You can find the app and its source code under the following links:
-
-* [**Testground at Google Play**](https://play.google.com/store/apps/details?id=com.luboganev.testground)
-* [**Testground source code at GitHub**](https://github.com/luboganev/testground)
+I have included a demo in the blog's companion app where you can test some _PendingIntents_ and alarm scheduling. You can find the source code on [**GitHub**](https://github.com/luboganev/testground)

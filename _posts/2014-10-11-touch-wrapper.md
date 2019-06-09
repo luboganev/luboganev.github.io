@@ -106,7 +106,4 @@ public class TouchDownWrapper extends FrameLayout {
 {% endhighlight %}
 
 ### Time to play - try out the different options in the companion app
-I have included a demo in the blog's companion app where you can test everything you would like. You can find the app and its source code under the following links:
-
-* [**Testground at Google Play**](https://play.google.com/store/apps/details?id=com.luboganev.testground)
-* [**Testground source code at GitHub**](https://github.com/luboganev/testground)
+I have included a demo in the blog's companion app where you can test everything you would like. You can find the source code on [**GitHub**](https://github.com/luboganev/testground)
