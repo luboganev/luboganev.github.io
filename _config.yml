@@ -47,8 +47,8 @@ feed:
   path: atom.xml
 
 # Pagination - https://jekyllrb.com/docs/pagination/
-paginate: 5
-paginate_path: /page:num/
+# paginate: 5
+# paginate_path: /page:num/
 
 # Search
 search_full_content: true # can have performance implications for large sites
@@ -73,7 +73,6 @@ plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
   - jekyll-feed
-  - jekyll-paginate
   - jekyll-paginate
 
 # Front Matter Defaults

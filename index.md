@@ -1,7 +1,6 @@
 ---
 layout: home
-paginate: true
-limit: 5
-show_excerpts: true
+posts_limit: 0
+show_excerpts: false
 entries_layout: list
 ---
