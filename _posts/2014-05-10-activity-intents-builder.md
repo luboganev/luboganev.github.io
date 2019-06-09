@@ -6,7 +6,6 @@ modified: 2014-05-11
 category: blog
 tags: [android, tip, pattern, software development, builder, activity, intent]
 share: true
-author: guest
 ---
 
 This post proposes an Android development pattern I have came up with while trying to refactor an ugly looking code (I was responsible for most of it anyway). You probably are familiar with programming a simple piece of code, which at some point after adding a ton of new options starts to get seriously cumbersome. At this point one has to do some refactoring to eliminate at least the serious code duplication which inevitably already exists.

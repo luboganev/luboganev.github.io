@@ -95,6 +95,21 @@ author:
 
 # Footer Links
 footer_links:
+  - title: Twitter
+    url: https://twitter.com/lgancho
+    icon: fab fa-twitter
+  - title: GitHub
+    url: https://github.com/luboganev
+    icon: fab fa-github
+  - title: Google Play
+    url: https://play.google.com/store/apps/dev?id=6612114401295889152
+    icon: fab fa-google-play
+  - title: LinkedIn
+    url: https://www.linkedin.com/in/luboganev
+    icon: fab fa-linkedin
+  - title: Xing
+    url: https://www.xing.com/profile/Lyubomir_Ganev2
+    icon: fab fa-xing
   - title: Feed
     url: atom.xml
-    icon: fas fa-rss-square
+    icon: fas fa-rss

@@ -1,8 +1,8 @@
 # Sample Authors
 # Remove file or replace with your own
 
-Guest:
-  name: Guest author
-  picture: /images/profile-pic.jpg
-  twitter: guest
-  links: false
+# guest:
+#   name: Guest
+#   picture: /images/profile-pic.jpg
+#   twitter: guest
+#   links: false
