@@ -86,8 +86,8 @@ defaults:
       share: true
 
 # Site Author
-author: Lyubomir Ganev
-  name: "Lyubomir Ganev"
+author:
+  name: Lyubomir Ganev
   picture: images/profile-pic.jpg
   email: luboganev@gmail.com
   twitter: lgancho
