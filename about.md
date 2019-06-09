@@ -5,7 +5,7 @@ title: About me
 tags: []
 modified: 2014-03-04
 image:
-  feature: about_feature.jpg
+  feature: images/about_feature.jpg
   credit: Lyubomir Ganev
   creditlink: http://www.500px.com/luboganev
 ---
