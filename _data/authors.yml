@@ -1,15 +1,6 @@
 # Sample Authors
 # Remove file or replace with your own
 
-Lyubomir Ganev:
-  name: Lyubomir Ganev
-  picture: /images/profile-pic.jpg
-  twitter: lgancho
-  links:
-    - title: Twitter
-      url: https://twitter.com/lgancho
-      icon: fab fa-twitter-square
-
 Guest:
   name: Guest author
   picture: /images/profile-pic.jpg
