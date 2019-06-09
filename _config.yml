@@ -16,7 +16,7 @@
 theme: jekyll-theme-so-simple
 # remote_theme: mmistakes/so-simple-theme
 locale: en-US
-title: "Personal website of Lyubomir Ganev"
+title: "Lyubomir Ganev - Android dev"
 description: "Personal website of Lyubomir Ganev"
 baseurl: # the subpath of your site, e.g. "/blog"
 url: "https://luboganev.dev"
