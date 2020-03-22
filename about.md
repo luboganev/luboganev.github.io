@@ -13,16 +13,17 @@ modified: 2014-03-04
 
 Hello, my name is Lyubomir and I am an experienced Android applications developer. Through my career I have worked in different areas of software development. I have initally started with desktop applications, then moved to fullstack web development and finally settled in the mobile applications domain. I actively keep myself up to date with the latest software trends and enjoy trying out new approaches and technologies. I spend my free time doing calisthenics, dancing salsa or taking photos.
 
-If you would like to take a deep dive into technical topics, you can check out my [__Blog__]({{ site.url }}/blog). You can also find an overview of some of my work in the following projects sections below. For further details, check my profiles on some popular web platforms by following opening the links in the footer.
+If you would like to take a deep dive into technical topics, you can check out my [__Blog__]({{ site.url }}/blog). You can also find an overview of some of my work in the following projects sections below. For further details, check my profiles on some popular web platforms by following the links in the footer.
+
 
 # _Professional projects_
 
 ### ThinxNet
-ThinxNet is a fast-growing Startup, based in Munich, Germany, striving to make the Internet of Things happen. The main focus lies on the automotive sector. The team uses cloud-based, state-of-the-art technology to pursue the vision of making our streets a safer and more efficient place. ThinxNet is crafting the future of mobility in new, exciting ways improving the driving experience through intelligent, connected solutions.
+ThinxNet is a startup, based in Munich, Germany. It strives to make the Internet of Things happen today. By using cloud-based, state-of-the-art technologies the team pursues the vision of making our streets a safer and more efficient place. ThinxNet is crafting the future of mobility in new, exciting ways improving the driving experience through intelligent, connected solutions.
 
 <a href="https://play.google.com/store/apps/details?id=com.thinxnet.native_tanktaler_android"><img src="{{ site.url }}/images/projects_ryd.png" style="width: 4rem; height: 4rem"></a>{: .align-left}
 
-The project I mostly focus on is the Ryd app available for iOS and Android. For more information visit the company website of [__ThinxNet__](https://www.thinxnet.com/), the website of [__Ryd__](https://ryd.one/de-de/) or the app on [__Google Play__](https://play.google.com/store/apps/details?id=com.thinxnet.native_tanktaler_android)
+The project I mostly focus on is the ryd app available for iOS and Android. For more information visit the company website of [__ThinxNet__](https://www.thinxnet.com/), the website of [__ryd__](https://ryd.one/de-de/) or the app on [__Google Play__](https://play.google.com/store/apps/details?id=com.thinxnet.native_tanktaler_android)
 
 <div style="clear:left;"/>
 
