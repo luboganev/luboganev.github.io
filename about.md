@@ -18,12 +18,10 @@ If you would like to take a deep dive into technical topics, you can check out m
 
 # _Professional projects_
 
-### ThinxNet
-ThinxNet is a startup, based in Munich, Germany. It strives to make the Internet of Things happen today. By using cloud-based, state-of-the-art technologies the team pursues the vision of making our streets a safer and more efficient place. ThinxNet is crafting the future of mobility in new, exciting ways improving the driving experience through intelligent, connected solutions.
+### Startup in the automotive domain
+An Internet of Things startup based in Munich, Germany. Main focus are mobile payments for fuel and making cars smarter through additional periphery and cloud sevices.
 
-<a href="https://play.google.com/store/apps/details?id=com.thinxnet.native_tanktaler_android"><img src="{{ site.url }}/images/projects_ryd.png" style="width: 4rem; height: 4rem"></a>{: .align-left}
-
-The project I mostly focus on is the ryd app available for iOS and Android. For more information visit the company website of [__ThinxNet__](https://www.thinxnet.com/), the website of [__ryd__](https://ryd.one/de-de/) or the app on [__Google Play__](https://play.google.com/store/apps/details?id=com.thinxnet.native_tanktaler_android)
+Unfortunately during the war in Ukraine in 2022 the company has demonstrated very low morale by using the war for PR campaigns and publicity. I was not part of the company at that time but I am truly ashamed I contributed before that moment to such business, therefore I would not publicly announce its name or make any advertisement for it.
 
 <div style="clear:left;"/>
 
