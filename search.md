@@ -1,4 +1,6 @@
 ---
+title: Search
 layout: search
-show_excerpts: true
+permalink: /search/
+sitemap: false
 ---

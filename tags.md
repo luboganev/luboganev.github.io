@@ -1,5 +1,7 @@
 ---
+title: Tag Archive
 layout: tags
-show_excerpts: false
-entries_layout: grid
+permalink: /tags/
+show_excerpts: true
+entries_layout: list
 ---
