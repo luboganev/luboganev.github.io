@@ -9,11 +9,11 @@ share: true
 ---
 
 ### LiveData - To set value or to postValue?
-Before the times of Jetpack Compose, we used to directly observe LiveData for changes in Android components that have lifecycle, such as for example Activity and Fragment. When writing updates to the LiveData, we have two options to choose from - `setValue` and `postValue`. The first one is synchrnonous operation and has to be executed on the main thread. The second one is asynchronous and can be invoked on other threads. PostValue internally schedules an update to be executed on the main thread Looper for the next Looper cycle, similar to how we can call post or postDelayed on a view.
+Before the times of Jetpack Compose, we used to directly observe LiveData for changes in Android components that have lifecycle, such as for example Activity and Fragment. When writing updates to the LiveData, we have two options to choose from - `setValue` and `postValue`. The first one is synchronous operation and has to be executed on the main thread. The second one is asynchronous and can be invoked on other threads. PostValue internally schedules an update to be executed on the main thread Looper for the next Looper cycle, similar to how we can call post or postDelayed on a view.
 
 This behavior is pretty straight forward and essentially results into the following guidelines when to use what:
 
-- If you only care about the last value of a LiveData, you can simply always using postValue. 
+- If you only care about the last value of a LiveData, you can simply always use postValue. 
 - If you care about all intermediate values, then you need to be calling setValue, but then you also need to take care about thread safety yourself.
 
 
@@ -27,17 +27,18 @@ The documentation of the observeAsState() method reads:
 
 This got me thinking. Is it just English wording or does the word "post" actually convey also a functional meaning here? What happens when we call LiveData.setValue instead of postValue but we use this new function to transform it to Compose State? 
 
-Turns out it is not just a matter of wording. The observeAsState function actually behaves in a way that we will not receive every single one of the updates to the LiveData, regardless of whether we have called setValue or postValue. This is a huge difference to what we're use to and can lead to very unexpected bugs once we start refactoring existing UI and its logic to Compose.
+Turns out it is not just a matter of wording. The observeAsState function actually behaves in a way that we will not receive every single intermediate update to the LiveData, regardless of whether we have called setValue or postValue. So it is essentially a forced postValue behavior always. This is a huge difference to what we're used to and can lead to very unexpected bugs especially when we "just" change a view based UI to Compose, without touching the logic in the ViewModel.
 
 ### The solution?
-There is no silver bullet, since it really depends on your use case. Probably the only time you really care about not missing an update to the LiveData is when you use it to propagate some events or commands. The official Android architecture guidelines explain in great detail how to properly model ui events coming from the ViewModel through LiveData state here: [Handle ViewModel events](https://developer.android.com/jetpack/guide/ui-layer/events?hl=en#handle-viewmodel-events). 
+There is no silver bullet, since it really depends on your use case. Probably the only time you really care about not missing an update to the LiveData is when you use it to propagate some events or commands, or when you accumulate some data over time. Those are not really the use cases LiveData was created for but hey, it used to work fine before, so why change it :) 
 
-However, sometimes implementing this can be very tricky if your ViewModel is consuming several asynchronous sources of data that utlimately maps to UI state changes. It is not trivial to implement logic that waits for the confirmation from the UI that an event has been consumed and only then triggers a LiveData update with some new data that came asynchronously while waiting for the confirmation. 
+The official Android architecture guidelines explain in great detail how to properly model ui events coming from the ViewModel through LiveData state here: [Handle ViewModel events](https://developer.android.com/jetpack/guide/ui-layer/events?hl=en#handle-viewmodel-events). This will resolve the issue of missing value. However, sometimes implementing this can be quite tricky if your ViewModel is consuming several asynchronous sources of data that utlimately map to UI state changes. It is not trivial to implement logic that waits for the confirmation from the UI that an event has been consumed and only then triggers a LiveData update with some new data that came asynchronously while waiting for the confirmation. 
 
-One solution to solve the complexity could be to simply split up the UI events into their own dedicated LiveData with the correct confirmation handling as described by the official guide and keep the static UI state data into its own LiveData, where we care only about the last value. In such situations, you could consume the events live data outside of the Compose, so they would behave exactly the way you're used to. If you can, go for it and follow the official guidelines.
+One solution to resolve the complexity could be to simply split up the UI events into their own dedicated LiveData with the correct confirmation handling as described by the official guide and keep the static UI state data into its own LiveData, where we care only about the last value. 
 
-Another option is to use different type of data channel, such a [Kotlin Flow](https://kotlinlang.org/docs/flow.html) or what is a popular "replacement" for LiveData nowadays - the [SharedFlow or StateFlow](https://developer.android.com/kotlin/flow/stateflow-and-sharedflow). These however, have their own specific behavior which might be what you want or not depending on your use case. I will try to summarize some key aspects of LiveData, StateFlow, SharedFlow in the following table.
+Alternatively, you could opt out of the official way and simply consume the events LiveData outside of the Compose, so they would behave exactly the way you're used to, given that you produce them by calling setValue.
 
+You can also try to use different type of data channel, such a [Kotlin Flow](https://kotlinlang.org/docs/flow.html) or what is a popular "replacement" for LiveData nowadays - the [SharedFlow or StateFlow](https://developer.android.com/kotlin/flow/stateflow-and-sharedflow). These however, have their own specific behavior which might be what you want or not depending on your use case. I will try to summarize some key aspects of LiveData, StateFlow, SharedFlow in the following table.
 
 | | LiveData         | StateFlow     | SharedFlow |
 |-----|--------------|-----------|------------|
