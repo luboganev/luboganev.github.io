@@ -98,6 +98,9 @@ footer_links:
   - title: Twitter
     url: https://twitter.com/lgancho
     icon: fab fa-twitter
+  - title: Mastodon
+    url: https://androiddev.social/@luboganev
+    icon: fab fa-mastodon
   - title: GitHub
     url: https://github.com/luboganev
     icon: fab fa-github
@@ -107,9 +110,6 @@ footer_links:
   - title: LinkedIn
     url: https://www.linkedin.com/in/luboganev
     icon: fab fa-linkedin
-  - title: Xing
-    url: https://www.xing.com/profile/Lyubomir_Ganev2
-    icon: fab fa-xing
   - title: Feed
     url: atom.xml
     icon: fas fa-rss
