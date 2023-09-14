@@ -18,6 +18,16 @@ If you would like to take a deep dive into technical topics, you can check out m
 
 # _Professional projects_
 
+### IU International University
+IU International University is the largest university in Europe's DACH region with over 100,000 registered students. Its mission is to provide students with the best personalised education to grow. In addition IU offers all the studies online so students can study from anywhere anytime. All of this contributes to a rich and challenging technological environment for IT innovation.
+
+<a href="https://play.google.com/store/apps/details?id=com.idssandroid"><img src="{{ site.url }}/images/projects_iu_learn.png" style="width: 4rem; height: 4rem"></a>{: .align-left}
+
+One of the projects I work on is the IU Learn Android application focused on learning and practising. It's a rich media application which includes course scripts with powerful annotations and self-test features, as well as audio and videos content to help students prepare better for their exams. Some of those features are implemented through a unique cross platform web based approach allowing sharing of code and content across Android, iOS and Web applications. The most powerful feature of the app is the ability to download what you need and just go offline without missing any of the tools. The app also seamlessly synchronises all its data across platforms when online, since users very often use more than one device and platform. This allows students to start learning at home on their laptop desktop or tablet, and then pick up exactly from what they left off on their smaller mobile devices while on the go. For more information please visit the app listing at [__Google Play__](https://play.google.com/store/apps/details?id=com.idssandroidd).
+
+
+<div style="clear:left;"/>
+
 ### Startup in the automotive domain
 An Internet of Things startup based in Munich, Germany. Main focus are mobile payments for fuel and making cars smarter through additional periphery and cloud sevices.
 
