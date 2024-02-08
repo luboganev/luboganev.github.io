@@ -21,9 +21,9 @@ If you would like to take a deep dive into technical topics, you can check out m
 ### IU International University
 IU International University is the largest university in Europe's DACH region with over 100,000 registered students. Its mission is to provide students with the best personalised education to grow. In addition IU offers all the studies online so students can study from anywhere anytime. All of this contributes to a rich and challenging technological environment for IT innovation.
 
-<a href="https://play.google.com/store/apps/details?id=com.idssandroid"><img src="{{ site.url }}/images/projects_iu_learn.png" style="width: 4rem; height: 4rem"></a>{: .align-left}
+<img src="{{ site.url }}/images/projects_iu_learn.png" style="width: 4rem; height: 4rem">{: .align-left}
 
-One of the projects I work on is the IU Learn Android application focused on learning and practising. It's a rich media application which includes course scripts with powerful annotations and self-test features, as well as audio and videos content to help students prepare better for their exams. Some of those features are implemented through a unique cross platform web based approach allowing sharing of code and content across Android, iOS and Web applications. The most powerful feature of the app is the ability to download what you need and just go offline without missing any of the tools. The app also seamlessly synchronises all its data across platforms when online, since users very often use more than one device and platform. This allows students to start learning at home on their laptop desktop or tablet, and then pick up exactly from what they left off on their smaller mobile devices while on the go. For more information please visit the app listing at [__Google Play__](https://play.google.com/store/apps/details?id=com.idssandroidd).
+One of the projects I work on is the IU Learn Android application focused on learning and practising. It's a rich media application which includes course scripts with powerful annotations and self-test features, as well as audio and videos content to help students prepare better for their exams. Some of those features are implemented through a unique cross platform web based approach allowing sharing of code and content across Android, iOS and Web applications. The most powerful feature of the app is the ability to download what you need and just go offline without missing any of the tools. The app also seamlessly synchronises all its data across platforms when online, since users very often use more than one device and platform. This allows students to start learning at home on their laptop desktop or tablet, and then pick up exactly from what they left off on their smaller mobile devices while on the go.
 
 
 <div style="clear:left;"/>
@@ -39,9 +39,9 @@ Unfortunately during the war in Ukraine in 2022 the company has demonstrated ver
 
 Luxoft (NYSE:LXFT) is a global consulting partner that offers end-to-end digital solutions to solve clients’ complex business challenges. My tasks were focused on projects of clients from the automotive industry such as BMW.
 
-<a href="https://play.google.com/store/apps/details?id=de.bmw.connected"><img src="{{ site.url }}/images/projects_bmw_connected.png" style="width: 4rem; height: 4rem"></a>{: .align-left}
+<img src="{{ site.url }}/images/projects_bmw_connected.png" style="width: 4rem; height: 4rem">{: .align-left}
 
-One of the projects I have worked on is the Android application part of BMW Connected services. For more information please visit the app listing at [__Google Play__](https://play.google.com/store/apps/details?id=de.bmw.connected).
+One of the projects I have worked on is the Android application part of BMW Connected services.
 
 <div style="clear:left;"/>
 
@@ -50,9 +50,9 @@ One of the projects I have worked on is the Android application part of BMW Conn
 Bragi is developing discrete virtual assistants that enable, protect and entertain you. With the launch of The Dash in 2015, Bragi introduced the first smart Hearable to the world.
 The team envisions a future where everyone is enabled to achieve their full potential through the pioneering development of deep human machine interaction in hardware and software. For more information please visit the [__Bragi__](https://www.bragi.com) website.
 
-<a href="https://play.google.com/store/apps/details?id=com.bragi.thedash.app"><img src="{{ site.url }}/images/projects_bragi.png" style="width: 4rem; height: 4rem"></a>{: .align-left}
+<img src="{{ site.url }}/images/projects_bragi.png" style="width: 4rem; height: 4rem">{: .align-left}
 
-The Bragi App is the smart extension of The Dash, The World’s First Truly Wireless Smart Earphones. It allows you to connect your smartphone, customise controls and discover the features of The Dash. My main responsibilities in this project included architecting, building, testing and maintaining the native Android application. In addition to the app, I was involved into architecting, building, testing and maintaining the Android Mobile SDK for 3rd party developers as well as integrating it into cooperation projects with partner companies. I worked as part of an in-house agile cross-functional software development team. For more information on this project visit the app on [__Google Play__](https://play.google.com/store/apps/details?id=com.bragi.thedash.app)
+The Bragi App is the smart extension of The Dash, The World’s First Truly Wireless Smart Earphones. It allows you to connect your smartphone, customise controls and discover the features of The Dash. My main responsibilities in this project included architecting, building, testing and maintaining the native Android application. In addition to the app, I was involved into architecting, building, testing and maintaining the Android Mobile SDK for 3rd party developers as well as integrating it into cooperation projects with partner companies. I worked as part of an in-house agile cross-functional software development team.
 
 <div style="clear:left;"/>
 
@@ -60,27 +60,27 @@ The Bragi App is the smart extension of The Dash, The World’s First Truly Wire
 
 Jochen Schweizer GmbH is a market leader in Germany for adventures and experiences. The company offers over 1,700 different activities for all tastes and ages: adrenaline-packed adventures full of action, fascinating outdoor activities for the whole family and feel-good experiences to relax and enjoy. The experience offers can be booked either online or in more than 40 Jochen Schweizer shops in Germany and Austria in the form of vouchers or as an experience box.
 
-<a href="https://play.google.com/store/apps/details?id=de.jochen_schweizer.jsnow"><img src="{{ site.url }}/images/projects_jochenschweizer_android.png" style="width: 4rem; height: 4rem"></a>{: .align-left}
+<img src="{{ site.url }}/images/projects_jochenschweizer_android.png" style="width: 4rem; height: 4rem">{: .align-left}
 
-<a href="https://itunes.apple.com/de/app/jochen-schweizer-deine-freizeit/id944153254?l=en&mt=8"><img src="{{ site.url }}/images/projects_jochenschweizer_ios.png" style="width: 4rem; height: 4rem"></a>{: .align-left}
+<img src="{{ site.url }}/images/projects_jochenschweizer_ios.png" style="width: 4rem; height: 4rem">{: .align-left}
 
-With the Jochen Schweizer app users can easily find and book experiences taking place on a specific date and time and at particular location. My main responsibilities in this project included building, testing and maintaining the native Android and iOS applications. I worked as part of an in-house agile cross-functional software development team. For more information on this project visit the [__Jochen Schweizer App__](http://www.jochen-schweizer.de/landingpage/erlebnis-app,default,pg.html/) website or check out the iOS app at the [__App Store__](https://itunes.apple.com/de/app/jochen-schweizer-deine-freizeit/id944153254?l=en&mt=8) or the Android app at [__Google Play__](https://play.google.com/store/apps/details?id=de.jochen_schweizer.jsnow)
+With the Jochen Schweizer app users can easily find and book experiences taking place on a specific date and time and at particular location. My main responsibilities in this project included building, testing and maintaining the native Android and iOS applications. I worked as part of an in-house agile cross-functional software development team.
 
 <div style="clear:left;"/>
 
 ### Spontacts
 
-<a href="https://play.google.com/store/apps/details?id=com.conceptworks.spontacts"><img src="{{ site.url }}/images/projects_spontacts.png" style="width: 4rem; height: 4rem"></a>{: .align-left}
+<img src="{{ site.url }}/images/projects_spontacts.png" style="width: 4rem; height: 4rem">{: .align-left}
 
-Spontacts is a social community which allows members to find, participate and create numerous activities at a certain location and particular time. Through participating in activities with other community members during their free time, Spontacts members can find and contact new interesting people, who share common interests and look for interesting activities during their free time. I have worked as part of an in-house team on a couple of new features integrated in the native Android app. For more information visit the [__Spontacts__](https://www.spontacts.com/) website or check out the Android app at [__Google Play__](https://play.google.com/store/apps/details?id=com.conceptworks.spontacts)
+Spontacts is a social community which allows members to find, participate and create numerous activities at a certain location and particular time. Through participating in activities with other community members during their free time, Spontacts members can find and contact new interesting people, who share common interests and look for interesting activities during their free time. I have worked as part of an in-house team on a couple of new features integrated in the native Android app. For more information visit the [__Spontacts__](https://www.spontacts.com/) website.
 
 <div style="clear:left;"/>
 
 ### CHIP Online App
 
-<a href="https://play.google.com/store/apps/details?id=de.chip.ultimate"><img src="{{ site.url }}/images/projects_chiponline.png" style="width: 4rem; height: 4rem"></a>{: .align-left}
+<img src="{{ site.url }}/images/projects_chiponline.png" style="width: 4rem; height: 4rem">{: .align-left}
 
-CHIP Online is the number one website for computers, phones and home entertainment in Germany. The Chip Online App is available for Android and iOS as a native mobile app. I have worked as part of an in-house team on further development of both native apps. Most of my work was focused primarily on the Android app. For more information visit the [__CHIP Apps__](http://apps.chip.de/) website or check out the Android app at [__Google Play__](https://play.google.com/store/apps/details?id=de.chip.ultimate)
+CHIP Online is the number one website for computers, phones and home entertainment in Germany. The Chip Online App is available for Android and iOS as a native mobile app. I have worked as part of an in-house team on further development of both native apps. Most of my work was focused primarily on the Android app.
 
 <div style="clear:left;"/>
 
@@ -88,30 +88,30 @@ CHIP Online is the number one website for computers, phones and home entertainme
 
 ### Anidro
 
-<a href="https://play.google.com/store/apps/details?id=app.anidro"><img src="{{ site.url }}/images/projects_anidro.png" style="width: 4rem; height: 4rem"></a>{: .align-left}
+<img src="{{ site.url }}/images/projects_anidro.png" style="width: 4rem; height: 4rem">{: .align-left}
 
-Anidro is a fun app which brings motion to static drawings. Users can create simple drawings on their smartphone or tablet and then share an animated version of these drawings as an animated GIF or video. For more information visit the [__Google Play__](https://play.google.com/store/apps/details?id=app.anidro) page or the [__GitHub__](http://luboganev.github.io/anidro/) project page.
+Anidro is a fun app which brings motion to static drawings. Users can create simple drawings on their smartphone or tablet and then share an animated version of these drawings as an animated GIF or video. For more information visit the [__GitHub__](http://luboganev.github.io/anidro/) project page.
 
 <div style="clear:left;"/>
 
 ### AppDetox
 
-<a href="https://play.google.com/store/apps/details?id=de.dfki.appdetox"><img src="{{ site.url }}/images/projects_appdetox.png" style="width: 4rem; height: 4rem"></a>{: .align-left}
+<img src="{{ site.url }}/images/projects_appdetox.png" style="width: 4rem; height: 4rem">{: .align-left}
 
-AppDetox started as a weekend research project in early 2012 but grew to be one of the best digital wellbeing apps available for Android helping thousands of people every day. The app is a tool for self-control designed to help users reduce heavy smartphone apps usage. Users can define rules and limits to reduce their mobile apps usage. Check out the app on [__Google Play__](https://play.google.com/store/apps/details?id=de.dfki.appdetox)
+AppDetox started as a weekend research project in early 2012 but grew to be one of the best digital wellbeing apps available for Android helping thousands of people every day. The app is a tool for self-control designed to help users reduce heavy smartphone apps usage. Users can define rules and limits to reduce their mobile apps usage.
 
 <div style="clear:left;"/>
 
 ### Dejalist
 
-<a href="https://github.com/luboganev/dejalist"><img src="{{ site.url }}/images/projects_dejalist.png" style="width: 4rem; height: 4rem"></a>{: .align-left}
+<img src="{{ site.url }}/images/projects_dejalist.png" style="width: 4rem; height: 4rem">{: .align-left}
 Dejalist is an open source Android app for compiling quick shopping lists. For more information visit the [__GitHub__](https://github.com/luboganev/dejalist) project page.
 
 <div style="clear:left;"/>
 
 ### Good intentions
 
-<a href="https://github.com/luboganev/goodintentions"><img src="{{ site.url }}/images/projects_goodintentions.png" style="width: 4rem; height: 4rem"></a>{: .align-left}
+<img src="{{ site.url }}/images/projects_goodintentions.png" style="width: 4rem; height: 4rem">{: .align-left}
 
 Good intentions is an open source Android app for building and launching custom Android Intents. The app is a useful for testing custom app launchers, deep link handling or handling share functionality in the apps you're building. For more information visit the [__GitHub__](https://github.com/luboganev/goodintentions) project page.
 
@@ -119,7 +119,7 @@ Good intentions is an open source Android app for building and launching custom 
 
 ### Testground
 
-<a href="https://github.com/luboganev/testground"><img src="{{ site.url }}/images/projects_testground.png" style="width: 4rem; height: 4rem"></a>{: .align-left}
+<img src="{{ site.url }}/images/projects_testground.png" style="width: 4rem; height: 4rem">{: .align-left}
 
 Testground is the companion app of my [__Blog__]({{ site.url }}/blog). It contains demos and sample code described in posts as well as direct links to them. It is open-source so you can play around with the samples and demos and change them to match your needs. For more information visit the [__GitHub__](https://github.com/luboganev/testground) project page.
 
@@ -127,6 +127,6 @@ Testground is the companion app of my [__Blog__]({{ site.url }}/blog). It contai
 
 ### Carbrands
 
-<a href="https://github.com/luboganev/Carbrands"><img src="{{ site.url }}/images/projects_carbrands.png" style="width: 4rem; height: 4rem"></a>{: .align-left}
+<img src="{{ site.url }}/images/projects_carbrands.png" style="width: 4rem; height: 4rem">{: .align-left}
 
 Carbrands is a list/detail open source sample application implementing the VIPER clean architecture described in my [__Blog__]({{ site.url }}/blog). You can inspect the code or even use it as a skeleton app when building your own projects. You can download a compiled APK from the [__GitHub Releases section__](https://github.com/luboganev/Carbrands/releases) or build it yourself using the source code hosted at [__GitHub__](https://github.com/luboganev/Carbrands).
