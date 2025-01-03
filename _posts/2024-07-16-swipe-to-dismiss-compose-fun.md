@@ -184,7 +184,7 @@ LaunchedEffect(key1 = anchorState.currentValue) {
 
 {% endhighlight %}
 
-The final step is to actually completely remove from the composition the Composable, when it is completely faded out. To achieve that we simply wrap it into a check for the `AnchoredDraggable.currentValue` to be equal to CENTER like this:
+The final step is to completely remove from the composition the Composable, when it is completely faded out. To achieve that we simply wrap it into a check for the `AnchoredDraggable.currentValue` to be equal to CENTER like this:
 
 {% highlight kotlin %}
 
