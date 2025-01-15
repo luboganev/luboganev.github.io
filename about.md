@@ -31,7 +31,7 @@ One of the projects I work on is the IU Learn Android application focused on lea
 ### Startup in the automotive domain
 An Internet of Things startup based in Munich, Germany. Main focus are mobile payments for fuel and making cars smarter through additional periphery and cloud sevices.
 
-Unfortunately during the war in Ukraine in 2022 the company has demonstrated very low morale by using the war for PR campaigns and publicity. I was not part of the company at that time but I am truly ashamed I contributed before that moment to such business, therefore I would not publicly announce its name or make any advertisement for it.
+Unfortunately during the war in Ukraine in 2022 the company has demonstrated a lack of judgment and decency by exploiting it for self-serving PR campaigns and publicity. I was not part of the company at that time but I am truly ashamed I contributed before that moment to such an organization, therefore I would not publicly announce its name or make any advertisement for it.
 
 <div style="clear:left;"/>
 
