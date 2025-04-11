@@ -87,12 +87,12 @@ CHIP Online is the number one website for computers, phones and home entertainme
 # _Private projects_
 
 ### App rating calculator
-The app rating calculator is a tool I always wanted to have, when trying to bump up the lifetime average app rating in Google Play. Its purpose is to illustrate how much effort and how many new positive ratings would it take to compensate for the impact of negative ratings in the past. You can use the app [Here](https://luboganev.dev/app-rating-calc), or check out the code in the [Repository](https://github.com/luboganev/app-rating-calc). 
+The app rating calculator is a tool I always wanted to have, when trying to bump up the lifetime average app rating in Google Play. Its purpose is to illustrate how much effort and how many new positive ratings would it take to compensate for the impact of negative ratings in the past. You can use the app [__Here__](https://luboganev.dev/app-rating-calc), or check out the code in the [__Repository__](https://github.com/luboganev/app-rating-calc). 
 
 This is a project I have built in order to learn TypeScript and Vue.js. PRs with improvements are welcome :)
 
 ### Cyberpunk breach protocol
-This is a mini-game you can play in the terminal. If you have ever played CyberPunk 2077, you will know what it is. Check out the code in the [Repository](https://github.com/luboganev/cyberpunk-go-terminal-breach)
+This is a mini-game you can play in the terminal. If you have ever played CyberPunk 2077, you will know what it is. Check out the code in the [__Repository__](https://github.com/luboganev/cyberpunk-go-terminal-breach)
 
 This is a project I have built in order to learn Go. PRs with improvements are welcome :)
 
