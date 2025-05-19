@@ -3,11 +3,21 @@ title: "Lyubomir Ganev – CV"
 author: "Lyubomir Ganev"
 ---
 
-# Lyubomir Ganev
-**Android Engineer**  
-📍 Munich, Germany · 📧 [luboganev@gmail.com](mailto:luboganev@gmail.com) · 🌐 [luboganev.dev](https://luboganev.dev) · 💼 [GitHub](https://github.com/luboganev) · [LinkedIn](https://www.linkedin.com/in/luboganev)
-
----
+<div style="display: flex; align-items: center; gap: 2rem;">
+  <img src="../../images/profile-pic-cv.jpg" alt="Lyubomir Ganev's profile picture" width="160" height="160"/>
+  <div>
+    <h1>Lyubomir Ganev</h1>
+    <p>
+        <strong>Android Engineer</strong><br>
+        📍 Munich, Germany<br>
+        📧 <a href="mailto:luboganev@gmail.com">luboganev@gmail.com</a><br>
+        🌐 <a href="https://luboganev.dev">luboganev.dev</a><br>
+        🌐 <a href="https://github.com/luboganev">GitHub</a><br>
+        💼  <a href="https://www.linkedin.com/in/luboganev">LinkedIn</a>
+    </p>
+  </div>
+</div>
+<div style="clear: both;"/>
 
 ## 🔹 Professional Summary
 Experienced Android Engineer with over a decade of hands-on development in building and maintaining scalable mobile applications. Specialized in Kotlin, Jetpack Compose, and Material Design with strong emphasis on Clean Architecture, CI/CD, and cross-functional collaboration. Passionate about open-source development, modern Android practices, and delivering meaningful user experiences.
@@ -15,13 +25,13 @@ Experienced Android Engineer with over a decade of hands-on development in build
 ---
 
 ## 🔹 Skills & Technologies
-**Languages:** Kotlin, Java
-**Mobile:** Android SDK, Jetpack Compose, Firebase, Play Services, Sentry
-**Architecture:** MVVM, Clean Architecture
-**Libraries:** Coroutines, Ktor, Retrofit, OkHttp, Dagger, Hilt, Koin, RxJava, Timber, Coil, Lottie
-**Testing:** JUnit, Mockito, Mockk, Espresso
-**CI/CD:** GitHub Actions, GitLab CI, CircleCI
-**Tools:** Android Studio, Git, Gradle, Figma, JIRA, Confluence
+**Languages:** Kotlin, Java\
+**Mobile:** Android SDK, Jetpack Compose, Firebase, Play Services, Sentry\
+**Architecture:** MVVM, Clean Architecture\
+**Libraries:** Coroutines, Ktor, Retrofit, OkHttp, Dagger, Hilt, Koin, RxJava, Timber, Coil, Lottie\
+**Testing:** JUnit, Mockito, Mockk, Espresso\
+**CI/CD:** GitHub Actions, GitLab CI, CircleCI\
+**Tools:** Android Studio, Git, Gradle, Figma, JIRA, Confluence\
 **Other:** Kotlin Multiplatform, REST APIs, GraphQL, Agile methodology, Code Reviews, Pair programming, Technical writing
 
 ---
@@ -111,8 +121,8 @@ Master Thesis: *Framework for Evaluation of Recommender Systems that Suggest Mob
 ---
 
 ## 🔹 Publications
-- **AppFunnel** – A framework for usage-centric evaluation of mobile app recommenders. *(IUI ’13)*
-- **AppDetox** – Helping users with mobile app addiction. *(MUM ’13)*
+- **AppFunnel** – A framework for usage-centric evaluation of mobile app recommenders. *(IUI '13)*
+- **AppDetox** – Helping users with mobile app addiction. *(MUM '13)*
 
 ---
 

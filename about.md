@@ -21,82 +21,14 @@ If you would like to take a deep dive into technical topics, you can check out m
 
 The following list is focused on skills and competences I currently use on daily basis. It doesn't represent an exhaustive list of all my skills I have acumulated throughout my whole career.
 
-### Primary programming Languages
-- Kotlin, Java
-
-### Frameworks
-- Android SDK
-- Gradle
-- Firebase
-- Sentry
-- Play Services
-
-### Libraries
-- Ktor, Retrofit, OkHttp
-- Gson, Moshi, Kotlin Serialization
-- Coroutines
-- Kotlin Multiplatform
-- Dagger, Hilt, Koin
-- Android Jetpack
-- Android Material
-- Jetpack Compose
-- Coil, Lottie
-- RxJava / RxAndroid
-- Timber
-- JUnit
-- Mockito / Mockk
-- Espresso
-
-### Web Technologies
-- HTTP, REST, GraphQL
-- XML, JSON
-- HTML, CSS
-- JavaScript, TypeScript
-- Vue.js
-- Markdown
-- Jekyll
-
-### Version Control
-- Git
-- GitHub, GitLab, Bitbucket
-
-### Continuous Integration
-- GitLab Pipelines
-- GitHub Actions
-- CircleCI
-
-### Database Technologies
-- RoomDB
-- MySQL
-- SQLite
-
-### Operating Systems
-- Mac OS
-- Android
-- Windows
-
-### IDEs
-- Android Studio
-- Visual Studio Code
-- Cursor.ai
-- IntelliJ IDEA
-- XCode
-
-### Other Competences
-- Cursor.ai, ChatGPT, Github Copilot 
-- MVVM, Clean Architecture, MVP
-- Reactive Programming, Functional Programming
-- Technical writing
-- Code Reviews, Pair Programming
-- Open Source
-- Scrum / Kanban
-- Agile methodology
-
-### Languages
-- Bulgarian (Native)
-- English (Fluent)
-- German (Fluent)
-- Spanish (A1)
+**Languages:** Kotlin, Java\
+**Mobile:** Android SDK, Jetpack Compose, Firebase, Play Services, Sentry\
+**Architecture:** MVVM, Clean Architecture\
+**Libraries:** Coroutines, Ktor, Retrofit, OkHttp, Dagger, Hilt, Koin, RxJava, Timber, Coil, Lottie\
+**Testing:** JUnit, Mockito, Mockk, Espresso\
+**CI/CD:** GitHub Actions, GitLab CI, CircleCI\
+**Tools:** Android Studio, Git, Gradle, Figma, JIRA, Confluence\
+**Other:** Kotlin Multiplatform, REST APIs, GraphQL, Agile methodology, Code Reviews, Pair programming, Technical writing
 
 # _Professional projects_
 
