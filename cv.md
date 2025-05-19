@@ -1,10 +1,11 @@
 ---
+layout: cv
 title: "Lyubomir Ganev – CV"
 author: "Lyubomir Ganev"
 ---
 
 <div style="display: flex; align-items: center; gap: 2rem;">
-  <img src="../../images/profile-pic-cv.jpg" alt="Lyubomir Ganev's profile picture" width="160" height="160"/>
+  <img src="/images/profile-pic-cv.jpg" alt="Lyubomir Ganev's profile picture" width="160" height="160"/>
   <div>
     <h1>Lyubomir Ganev</h1>
     <p>
