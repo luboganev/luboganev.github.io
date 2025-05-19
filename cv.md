@@ -13,8 +13,8 @@ author: "Lyubomir Ganev"
         📍 Munich, Germany<br>
         📧 <a href="mailto:luboganev@gmail.com">luboganev@gmail.com</a><br>
         🌐 <a href="https://luboganev.dev">luboganev.dev</a><br>
-        🌐 <a href="https://github.com/luboganev">GitHub</a><br>
-        💼  <a href="https://www.linkedin.com/in/luboganev">LinkedIn</a>
+        🌐 <a href="https://github.com/luboganev">github.com/luboganev</a><br>
+        💼 <a href="https://www.linkedin.com/in/luboganev">linkedin.com/in/luboganev</a>
     </p>
   </div>
 </div>
