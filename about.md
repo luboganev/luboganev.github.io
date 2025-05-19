@@ -13,7 +13,9 @@ modified: 2014-03-04
 
 Hello, my name is Lyubomir and I am an experienced Android applications developer. Through my career I have initally started with desktop applications, then moved to BE server side scripting and finally settled in the mobile applications domain. I actively keep myself up to date with the latest software trends and enjoy trying out new approaches and technologies. My hobbies are calisthenics, dancing salsa, playing video games or taking photos.
 
-If you would like to take a deep dive into technical topics, you can check out my [__Posts__]({{ site.url }}/posts). You can also find an overview of my skills and some of my work in the following sections below. For further details, check my profiles on some popular web platforms by following the links in the footer.
+If you would like to get in touch, feel free to reach out to me at [luboganev@gmail.com](mailto:luboganev@gmail.com). You can also check my profiles on some popular web platforms by following the links in the footer.
+
+If you would like to take a deep dive into technical topics, you can check out my [__Posts__]({{ site.url }}/posts). You can also find an overview of my skills and some of my work in the following sections below.
 
 # _Personal skills and competences_
 
