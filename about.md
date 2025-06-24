@@ -19,7 +19,7 @@ If you would like to take a deep dive into technical topics, you can check out m
 
 # _Personal skills and competences_
 
-The following list is focused on skills and competences I currently use on daily basis. It doesn't represent an exhaustive list of all my skills I have acumulated throughout my whole career.
+The following list is focused on skills and competences I currently use on daily basis. Throughout my whole career I have accumulated many other additional skills not mentioned here for the sake of focus.
 
 **Languages:** Kotlin, Java\
 **Mobile:** Android SDK, Jetpack Compose, Firebase, Play Services, Sentry\
@@ -33,20 +33,45 @@ The following list is focused on skills and competences I currently use on daily
 # _Professional projects_
 
 ### IU International University (Jan 2022 - present)
-IU International University is the largest university in Europe's DACH region with over 100,000 registered students. Its mission is to provide students with the best personalised education to grow. In addition IU offers all the studies online so students can study from anywhere anytime. All of this contributes to a rich and challenging technological environment for IT innovation.
+IU International University is the largest university in Europe's DACH region with over 140,000 registered students. Its mission is to provide students with the best personalised education to grow. In addition IU offers all the studies online so students can study from anywhere anytime. All of this contributes to a rich and challenging technological environment for IT innovation.
 
+##### 2023 - currently
+myCampus app is the native variant of International University's online platfrom. It was built as the next iteration of the cross-platform technical solution using all the know how that we have accumulated during the development of IULearn. My main tasks and achievements are:
+
+- Architected and developed fully native app features in addition to the platform development.
+- Implemented a technical solution enabling the native app to host and serve SPA micro frontends from local files, thus enabling shared codebase between the native app and the SPA micro frontend based web platform
+- Implemented a "Dev mode" containing numerous tools that facilitate the work of micro frontend web developers to build for both web and native app platforms.
+- Contributed cross-team via inner sourcing to micro frontends based on vue.js and TypeScript.
+
+##### 2022 - 2023
 <img src="{{ site.url }}/images/projects_iu_learn.png" style="width: 4rem; height: 4rem" alt="IULearn Android app icon">{: .align-left}
 
-The main project I work on is the IULearn Android application focused on learning and practising. It's a rich media application with powerful features like course scripts with annotations, self-testing tools, and multimedia content to help students prepare for exams. The app uses an innovative cross-platform web approach to share code across Android, iOS and Web. Students can download content for offline use and seamlessly sync their progress across all devices when online, allowing them to transition smoothly between studying at home and on the go.
-
-The app was built from scratch in just 9 months, achieving remarkable stability metrics with a user-perceived crash rate of only 0.35% and an ANR (Application Not Responding) rate of 0.01%. This technical excellence is reflected in the app's superb Google Play Store rating, maintaining a 4.4+ lifetime rating from users.
+IULearn is a rich media application with powerful features like course scripts with annotations, self-testing tools, and multimedia content to help students prepare for exams. In addition, the app uses an innovative cross-platform web approach to share code across Android, iOS and Web. Students can download content for offline use and seamlessly sync their progress across all devices when online, allowing them to transition smoothly between studying at home and on the go. My main tasks and achievements are:
 
 <div style="clear:left;"/>
+
+- Architected and implemented native app with Jetpack Compose and MVVM clean architecture
+with very high unit test coverage
+- App was built from scratch in just 9 months
+- Remarkable stability metrics with a user-perceived crash rate of only 0.35% and an ANR
+(Application Not Responding) rate of just 0.01%.
+- Superb Google Play Store rating, maintaining a 4.4+ lifetime rating from users.
 
 ### Startup in the automotive domain  (Mar 2019 - Dec 2021)
 An Internet of Things startup based in Munich, Germany. Main focus are mobile payments for fuel and making cars smarter through additional periphery and cloud sevices.
 
 This role is not listed by name due to a values misalignment with the organization. I was not employed there during the events in question but have opted not to publicly associate with the company.
+
+The challenging project allowed me to step up significantly my skills. Here is a list of my tasks:
+
+- Architected and implemented native Android companion app for proprietary hardware's cloud features.
+- Adopted Kotlin multiplatform SDK for iOS and Android handling communication with complex state machine at the BE, thus significantly reducing the time to launch for both platforms.
+- Architected and implemented multi-layer multi-module architecture for BE communication, domain layer and UI layer, improving significantly build times.
+- Implemented mock BE with Kotlin Multiplatform used for automated and manual testing of all possible BE state transitions, thus enabling the development of both iOS and Android apps to be done in parallel with the BE development. This enabled us to successfully launch despite coding until the very last minute.
+- Designed and implemented modular custom design system layer in close collaboration with UX and UI designers.
+- Adopted Jetpack Compose as the main Andorid UI framework
+- Led a team of two senior developers and cross-collaborated with BE engineers, UX/UI designers and product managers.
+- Perfected communication skills in a forced remote only working mode during the COVID pandemic.
 
 <div style="clear:left;"/>
 
@@ -56,7 +81,7 @@ Luxoft (NYSE:LXFT) is a global consulting partner that offers end-to-end digital
 
 <img src="{{ site.url }}/images/projects_bmw_connected.png" style="width: 4rem; height: 4rem" alt="BMW Connected Android app icon">{: .align-left}
 
-One of the projects I have worked on is the Android application part of BMW Connected services.
+One of the projects I have worked on is the Android application part of BMW Connected services. As a technical lead for a team of 3 developers I also had the opportunity to mentor junior developers.
 
 <div style="clear:left;"/>
 
@@ -67,7 +92,16 @@ The team envisions a future where everyone is enabled to achieve their full pote
 
 <img src="{{ site.url }}/images/projects_bragi.png" style="width: 4rem; height: 4rem" alt="Bragi Android app icon">{: .align-left}
 
-The Bragi App is the smart extension of The Dash, The World’s First Truly Wireless Smart Earphones. It allows you to connect your smartphone, customise controls and discover the features of The Dash. My main responsibilities in this project included architecting, building, testing and maintaining the native Android application. In addition to the app, I was involved into architecting, building, testing and maintaining the Android Mobile SDK for 3rd party developers as well as integrating it into cooperation projects with partner companies. I worked as part of an in-house agile cross-functional software development team.
+The Bragi App is the smart extension of The Dash, The World’s First Truly Wireless Smart Earphones. It allows you to connect your smartphone, customise controls and discover the features of The Dash. I worked as part of an in-house agile cross-functional software development team. Here are my key achievements and tasks in this position:
+
+- Developed and maintained mobile companion app for wireless hearables.
+- Implemented numerous prototypes and demo research projects, investigating possible innovations in the domain.
+- Integrated custom BLE protocols for real-time device communication and firmware updates.
+- Adopted Kotlin as main programming language.
+- Technical lead for a team of 3 developers.
+- Mentored a junior developer.
+- Adopted high performance, high resilience work style in a very competitive startup environment.
+- Contributed to products in direct competition with hearables by Apple and Samsung.
 
 <div style="clear:left;"/>
 
@@ -79,7 +113,11 @@ Jochen Schweizer GmbH is a market leader in Germany for adventures and experienc
 
 <img src="{{ site.url }}/images/projects_jochenschweizer_ios.png" style="width: 4rem; height: 4rem" alt="Jochen Schweizer iOS app icon">{: .align-left}
 
-With the Jochen Schweizer app users can easily find and book experiences taking place on a specific date and time and at particular location. My main responsibilities in this project included building, testing and maintaining the native Android and iOS applications. I worked as part of an in-house agile cross-functional software development team.
+With the Jochen Schweizer app users can easily find and book experiences taking place on a specific date and time and at particular location. Here are my key achievements and tasks:
+
+- Built and maintained iOS and Android apps covering the core business of the company.
+- Architected and adapted the iOS VIPER architecture model for Android, thus enabling a mixed team of 6 iOS and Android engineers to contribute to both codebases.
+- Introduced Swift to the iOS codebase.
 
 <div style="clear:left;"/>
 
@@ -88,6 +126,8 @@ With the Jochen Schweizer app users can easily find and book experiences taking 
 <img src="{{ site.url }}/images/projects_spontacts.png" style="width: 4rem; height: 4rem" alt="Spontacts Android app icon">{: .align-left}
 
 Spontacts is a social community which allows members to find, participate and create numerous activities at a certain location and particular time. Through participating in activities with other community members during their free time, Spontacts members can find and contact new interesting people, who share common interests and look for interesting activities during their free time. I have worked as part of an in-house team on a couple of new features integrated in the native Android app. For more information visit the [__Spontacts__](https://www.spontacts.com/) website.
+
+My key contribution to the project was enablind orientation changes in the Android app so that users can browse a map in landscape mode. Enabling orientation change required key changes throughout the whole app to handle the additional Android lifecycle and state restoration related to it.
 
 <div style="clear:left;"/>
 
