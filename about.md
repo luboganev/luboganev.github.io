@@ -42,6 +42,7 @@ myCampus app is the native variant of International University's online platfrom
 - Implemented a technical solution enabling the native app to host and serve SPA micro frontends from local files, thus enabling shared codebase between the native app and the SPA micro frontend based web platform
 - Implemented a "Dev mode" containing numerous tools that facilitate the work of micro frontend web developers to build for both web and native app platforms.
 - Contributed cross-team via inner sourcing to micro frontends based on vue.js and TypeScript.
+- Collaborated closely with the Design and UX team developing a rich fully custom design system and implementing it in Android Jetpack Compose
 
 ##### 2022 - 2023
 <img src="{{ site.url }}/images/projects_iu_learn.png" style="width: 4rem; height: 4rem" alt="IULearn Android app icon">{: .align-left}

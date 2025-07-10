@@ -42,11 +42,17 @@ Experienced Android Engineer with over a decade of hands-on development in build
 ### **Senior Android Developer**  
 **IU International University** — Munich, Germany  
 *Jan 2022 – Present*
-- Development and maintenance of "IU Learn", a Kotlin-based e-learning app for thousands of students.
-- Architected and implemented native app with Jetpack Compose and MVVM clean architecture with very high unit test coverage
-- App was built from scratch in just 9 months
-- Remarkable stability metrics with a user-perceived crash rate of only 0.35% and an ANR (Application Not Responding) rate of just 0.01%.
-- Superb Google Play Store rating, maintaining a 4.4+ lifetime rating from users.
+- Development and maintenance of "myCampus", the native variant of International University's online platfrom
+  - Architected and developed fully native app features in addition to the platform development.
+  - Collaborated closely with the Design and UX team developing a rich fully custom design system and implementing it in Android Jetpack Compose
+  - Implemented a technical solution enabling the native app to host and serve SPA micro frontends from local files, thus enabling shared codebase between the native app and the SPA micro frontend based web platform
+  - Implemented a "Dev mode" containing numerous tools that facilitate the work of micro frontend web developers to build for both web and native app platforms.
+  - Contributed cross-team via inner sourcing to micro frontends based on vue.js and TypeScript.
+- Development and maintenance of "IU Learn", a native e-learning app for thousands of students.
+  - Architected and implemented native app with Jetpack Compose and MVVM clean architecture with very high unit test coverage
+  - App was built from scratch in just 9 months
+  - Remarkable stability metrics with a user-perceived crash rate of only 0.35% and an ANR (Application Not Responding) rate of just 0.01%.
+  - Superb Google Play Store rating, maintaining a 4.4+ lifetime rating from users.
 
 ### **Lead Android Developer**  
 **Automotive Startup** — Munich, Germany  
@@ -97,14 +103,6 @@ Experienced Android Engineer with over a decade of hands-on development in build
 *May 2012 – Nov 2013*
 - Implemented native Android applications for external customers of the agency
 - Collaborated with BE engineers and UX/UI designers to deliver high quality products.
-
-### **Research Assistant**  
-**Institut für Wirtschaftsinformatik (IWI), DFKI GmbH** — Saarbrücken, Germany  
-*Mar 2011 – Dec 2011*
-
-### **Web Developer**  
-**Mobiltel EAD** — Sofia, Bulgaria  
-*Dec 2008 – Oct 2009*
 
 ---
 
