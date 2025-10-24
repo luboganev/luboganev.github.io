@@ -171,7 +171,7 @@ By doing this, `derivedStateOf` never invalidates its internal value, since it s
 ### So how do we fix that?
 
 ##### Revert code
-No, obviously just kidding. The fact we want to extract the functionality it its own function is not the issue. It is how we're doing it. So let's see some actual possible solutions.
+No, obviously just kidding. The fact we want to extract the functionality on its own function is not the issue. It is how we're doing it. So let's see some actual possible solutions.
 
 ##### Add key to remember of derivedStateOf
 This is basically a bandaid. Here is the code.
@@ -200,7 +200,6 @@ fun MainScreen() {
     var counter by remember { mutableIntStateOf(0) }
     Column {
 
-        // A lot of other code here
         CanBeDividedByFive { counter } // lambda here
 
         Button(
@@ -238,7 +237,6 @@ fun MainScreen() {
     val counterState = remember { mutableIntStateOf(0) }
     Column {
 
-        // A lot of other code here
         CanBeDividedByFive(counterState)
 
         Button(
