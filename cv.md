@@ -39,9 +39,14 @@ Experienced Android Engineer with over a decade of hands-on development in build
 
 ## 🔹 Work Experience
 
+### **Senior Mobile Developer**  
+**1&1 Mail & Media Development & Technology GmbH** — Munich, Germany
+*Feb 2026 – Present*
+- Development and maintenance of the Android apps of the company
+
 ### **Senior Android Developer**  
 **IU International University** — Munich, Germany  
-*Jan 2022 – Present*
+*Jan 2022 – Jan 2026*
 - Development and maintenance of "myCampus", the native variant of International University's online platfrom
   - Architected and developed fully native app features in addition to the platform development.
   - Collaborated closely with the Design and UX team developing a rich fully custom design system and implementing it in Android Jetpack Compose

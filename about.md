@@ -32,10 +32,13 @@ The following list is focused on skills and competences I currently use on daily
 
 # _Professional projects_
 
-### IU International University (Jan 2022 - present)
+### 1&1 Mail & Media Development & Technology GmbH (Feb 2026 - present)
+GMX, WEB.DE & mail.com brands have 42 million active users around the world. This makes the company the leading e-mail provider in Germany, Austria and Switzerland. Building on this strong market position, we develop services and apps that simplify people’s digital lives – from office tools and cloud storage to personal ID management. I'm proud to be part of a large team of professionals pushing the boundaries of technology in Germany, Europe and around the world.
+
+### IU International University (Jan 2022 - Jan 2026)
 IU International University is the largest university in Europe's DACH region with over 140,000 registered students. Its mission is to provide students with the best personalised education to grow. In addition IU offers all the studies online so students can study from anywhere anytime. All of this contributes to a rich and challenging technological environment for IT innovation.
 
-##### 2023 - currently
+##### 2023 - Jan 2026
 myCampus app is the native variant of International University's online platfrom. It was built as the next iteration of the cross-platform technical solution using all the know how that we have accumulated during the development of IULearn. My main tasks and achievements are:
 
 - Architected and developed fully native app features in addition to the platform development.
