@@ -4,6 +4,8 @@
   url: /
 - title: About
   url: /about/
+- title: Hello World
+  url: /hello_world/
 - title: Posts
   url: /posts/
 - title: Tags
